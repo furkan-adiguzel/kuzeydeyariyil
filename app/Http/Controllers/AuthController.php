@@ -78,7 +78,12 @@ class AuthController extends Controller
 
             $password = rand(100000, 999999);
 
+            Log::info('---------------------------------------------------------------------------------------------------------------------');
             Log::info($password);
+            Log::info($request->post('name'),);
+            Log::info($request->post('mobile'),);
+            Log::info('---------------------------------------------------------------------------------------------------------------------');
+
 
             if ($this->sendSMS($request->post('mobile'), $password)) {
                 $hashed = Hash::make($password);

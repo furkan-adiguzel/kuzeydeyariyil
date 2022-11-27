@@ -15,7 +15,10 @@ class HomeController extends Controller
     public function index() {
         $clbs = Attender::where('club', '!=', 1)->get()->countBy('club')->sort()->reverse();
         $clubs = $clbs->take(5)->toArray();
-        unset($clubs[array_keys($clubs)[0]]);
+
+        if (isset(array_keys($clubs)[0])) {
+            unset($clubs[array_keys($clubs)[0]]);
+        }
 
         $firstClub =$clbs->take(1)->toArray();
         $allClubs = Clubs::getClubs();
