@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=1.1.0">
     <style type="text/css">
         @font-face {
-            font-family: TrajanSans;
-            src: url('{{ public_path('font/TrajanSansPro-ExtraLight.ttf') }}');
+            font-family: "TrajanSans";
+            src: url('{{ public_path('font/"TrajanSans"Pro-ExtraLight.ttf') }}');
         }
     </style>
 </head>
@@ -42,7 +42,7 @@
             <div class="header-wrapper" style="padding: 0;">
                 <div class="logo">
                     <a href="{{ route('home') }}">
-                        <img height="100px" style="height: 100px" src="/assets/images/logo/logo.png" alt="logo">
+                        <img height="100px" style="height: 100px" src="/assets/images/logo/logo.png?v=1.1.0" alt="logo">
                     </a>
                 </div>
                 <div class="menu-area">

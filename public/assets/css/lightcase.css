@@ -19,7 +19,7 @@
  * );
  */
 @font-face {
-    font-family: TrajanSans;
+    font-family: "TrajanSans";
     src: url('/fonts/TrajanSansPro-ExtraLight.ttf');
     font-weight: normal;
     font-style: normal;

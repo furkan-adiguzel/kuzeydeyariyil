@@ -345,7 +345,7 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-c
 body {
   background: #00163f;
   color: #fff;
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -358,7 +358,7 @@ h5,
 h6 {
   color: #fff;
   font-weight: 700;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
 }
 
 a > h1,
@@ -523,7 +523,7 @@ ul li {
   z-index: -1;
 }
 .section-header p {
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   font-size: 16px;
   letter-spacing: 0.4rem;
 }
@@ -932,7 +932,7 @@ ul li {
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button .accor-header-inner .h7 {
   color: #00163f;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button.collapsed {
   border-radius: 0.25rem;
@@ -961,7 +961,7 @@ ul li {
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button.collapsed .h7 {
   color: #fff;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button:focus {
   border: none;
@@ -1008,7 +1008,7 @@ ul li {
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 .pricing-item .pricing-inner .pricing-header p {
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   font-size: 16px;
 }
 .pricing-item .pricing-inner .pricing-content .facilites {
@@ -1052,7 +1052,7 @@ ul li {
   list-style: none;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li p {
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat {
   align-items: flex-end;
@@ -1127,7 +1127,7 @@ ul li {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
   margin-bottom: 40px;
 }
 .widget .widget-header h5::before {
@@ -1288,7 +1288,7 @@ ul li {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
   margin-bottom: 2px;
 }
 .widget.widget-post ul.widget-wrapper li .post-content h6:hover {
@@ -1433,7 +1433,7 @@ ul li {
 }
 .coming-wrapper .event-count .rounded-circle span {
   font-size: 24px;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   line-height: 1;
 }
 .coming-wrapper h1 {
@@ -1485,7 +1485,7 @@ ul li {
 .single-quote {
   background: #00163f;
   color: #fff;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   padding: 25px 15px 20px;
   position: relative;
 }
@@ -1544,7 +1544,7 @@ ul li {
   line-height: 36px;
   font-style: italic;
   font-weight: 500;
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
 }
 @media (max-width: 767px) {
   .blog-quote {
@@ -1710,7 +1710,7 @@ ul li {
   padding: 0 30px;
   background: #fff;
   color: #00163f;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   font-style: italic;
   font-size: 14px;
   text-transform: capitalize;
@@ -2419,7 +2419,7 @@ ul li {
   height: 18px;
   line-height: 18px;
   font-size: 14px;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   border-radius: 50%;
   color: #00163f;
   top: -8px;
@@ -2772,7 +2772,7 @@ ul li {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -2782,7 +2782,7 @@ ul li {
 }
 .banner-section .banner-wrapper .banner-content .countdown .clock-item .count-text {
   background: #fff;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   font-size: 18px;
   color: #00163f !important;
   padding: 0.5rem 0.7rem;
@@ -2813,7 +2813,7 @@ ul li {
 .banner-section .banner-wrapper .banner-content > p {
   max-width: 390px;
   font-size: 18px;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -2952,7 +2952,7 @@ ul li {
   color: #fff;
   font-size: 16px;
   padding: 7px 0;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   text-align: left;
 }
 .event-gift-section .gift-content .gift-list .gift-item span {
@@ -4292,7 +4292,7 @@ ul li {
   color: #fff;
   font-weight: 700;
   position: relative;
-  font-family: TrajanSans, serif;
+  font-family: "TrajanSans", serif;
   font-size: 18px;
 }
 .widget .widget-header h5::before {
@@ -4870,7 +4870,7 @@ ul li {
   max-width: 610px;
 }
 .contact-form-wrapper .contact-form h5 {
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
 }
 .contact-form-wrapper .contact-form form.comment-form {
   justify-content: space-between;
@@ -4933,7 +4933,7 @@ ul li {
   }
 }
 .contact-info-wrapper .contact-info-title h5 {
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
 }
 .contact-info-wrapper .contact-info-title p {
   max-width: 280px;
@@ -5074,7 +5074,7 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-c
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  font-family: TrajanSans, sans-serif;
+  font-family: "TrajanSans", sans-serif;
 }
 footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner .lab-content p {
   color: #5d6e8d;
