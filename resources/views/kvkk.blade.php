@@ -93,9 +93,8 @@ haklarına sahipsiniz.
 
 Bu kapsamda, yukarıdaki haklarınıza ilişkin talebinizi İnternet Sitemizde yer alan formu doldurarak veya Kişisel Verileri Koruma Kurumu tarafından belirlenen şartları taşıyacak şekilde oluşturarak aşağıda verilen ve zaman zaman değişebilecek olan e-posta adresimize bize daha önce bildirdiğiniz ve sistemimizde kayıtlı olan e-posta adresinizden göndereceğiniz e-posta ile (lütfen sistemimizde kayıtlı e-posta adresinizi kontrol ediniz) veya güvenli elektronik imzalı veya mobil imzalı olarak kep adresimize yahut yine aşağıda yer alan ve zaman zaman değişebilecek olan posta adresimize ıslak imzalı bir dilekçe ile elden ya da noter aracılığıyla teslim edebilir ve ileride bunlara eklenebilecek Kişisel Verileri Koruma Kurumu tarafından belirlenen diğer yöntemlerle gönderebilirsiniz. Lütfen güncel başvuru yöntemlerini başvuru öncesinde mevzuattan teyit ediniz. Agora Rotaract Derneği, talebin niteliğine göre talebi en kısa sürede ve en geç 30 (otuz) gün içinde ücretsiz olarak sonuçlandıracaktır. Taleplerin Agora Rotaract Derneği tarafından sonuçlandırılmasına ilişkin ayrıca bir maliyet doğması hâlinde Kişisel Verileri Koruma Kurulunca belirlenen tarifedeki ücretler Agora Rotaract Derneği tarafından talep edilebilir.
 
-Posta adresi : Gazi Blv. No:112/601 Susuzlu İş Hanı İsmet Kaptan  KONAK /İzmir
-E-posta adresi : izmiragorarotaract@gmail.com
-E-posta adresi : info@asamble2022.com
+{{--Posta adresi : Gazi Blv. No:112/601 Susuzlu İş Hanı İsmet Kaptan  KONAK /İzmir--}}
+E-posta adresi : kuzeydeyariyil@gmail.com
 
                 </p>
             </div>

@@ -25,20 +25,22 @@
                     </div>
                 @endif
 
+                    <h3 class="coming-soon-title mb-4" style="margin: auto;text-align: center;">Sitemiz Güncellenmektedir. Yakında Üyelik Alımlarını Açacağız.</h3>
 
-                <form action="{{ route('auth.login') }}" method="post" class="account-form">
-                    @csrf
-                    <div class="form-group">
-                        <input type="text" id="phone" pattern=".{10,10}" placeholder="Cep Telefonu (5541231212)" name="mobile" required title="Başında 0 olmadan 10 haneli telefon numaranızı giriniz.">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Parola" name="password" required>
-                    </div>
-                    <div class="form-group">
-                        <button class="d-block lab-btn"><span>Giriş Yap</span></button>
-                    </div>
-                    <p style="margin-top: 30px;"><a href="{{ route('auth.reset-password') }}">Şifremi Unuttum</a></p>
-                </form>
+
+                    {{--                <form action="{{ route('auth.login') }}" method="post" class="account-form">--}}
+{{--                    @csrf--}}
+{{--                    <div class="form-group">--}}
+{{--                        <input type="text" id="phone" pattern=".{10,10}" placeholder="Cep Telefonu (5541231212)" name="mobile" required title="Başında 0 olmadan 10 haneli telefon numaranızı giriniz.">--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <input type="password" placeholder="Parola" name="password" required>--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <button class="d-block lab-btn"><span>Giriş Yap</span></button>--}}
+{{--                    </div>--}}
+{{--                    <p style="margin-top: 30px;"><a href="{{ route('auth.reset-password') }}">Şifremi Unuttum</a></p>--}}
+{{--                </form>--}}
             </div>
         </div>
     </div>

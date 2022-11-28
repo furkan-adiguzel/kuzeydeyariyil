@@ -10,10 +10,15 @@
 
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/all.min.css">
-    <link rel="stylesheet" href="/assets/css/icofont.min.css">
     <link rel="stylesheet" href="/assets/css/lightcase.css">
     <link rel="stylesheet" href="/assets/css/swiper.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <style type="text/css">
+        @font-face {
+            font-family: TrajanSans;
+            src: url('{{ public_path('font/TrajanSansPro-ExtraLight.ttf') }}');
+        }
+    </style>
 </head>
 
 <body>
@@ -37,7 +42,7 @@
             <div class="header-wrapper" style="padding: 0;">
                 <div class="logo">
                     <a href="{{ route('home') }}">
-                        <img src="/assets/images/logo/logo.png" alt="logo">
+                        <img height="100px" style="height: 100px" src="/assets/images/logo/logo.png" alt="logo">
                     </a>
                 </div>
                 <div class="menu-area">
@@ -87,7 +92,7 @@
                                 <img src="/assets/images/footer/footer-top/instagram.png" alt="Phone-icon">
                             </div>
                             <div class="lab-content">
-                                <span><a href="https://www.instagram.com/asamble2022/">Asamble2022</a></span>
+                                <span><a href="https://www.instagram.com/kuzeydeyariyil/">kuzeydeyariyil</a></span>
                             </div>
                         </div>
                     </div>
@@ -99,7 +104,7 @@
                                 <img src="/assets/images/footer/footer-top/02.png" alt="email-icon">
                             </div>
                             <div class="lab-content">
-                                <span>Email : info@asamble2022.com</span>
+                                <span>Email : kuzeydeyariyil@gmail.com</span>
                             </div>
                         </div>
                     </div>
@@ -111,7 +116,7 @@
                                 <img src="/assets/images/footer/footer-top/03.png" alt="location-icon">
                             </div>
                             <div class="lab-content">
-                                <span>Pine Bay Holiday Resort Bayraklıdede<br>Camlimani Mevkii, 09400 Kuşadası/Aydın</span>
+                                <span>Mithatpaşa, 15 Eylül Cd. No:68,<br> 10405 Ayvalık/Balıkesir</span>
                             </div>
                         </div>
                     </div>
@@ -124,7 +129,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer-bottom-content text-center">
-                        <p>&copy;2022 <a href="{{ route('home')  }}">Agora Rotaract</a></p>
+                        <p>&copy;2023 <a href="{{ route('home')  }}">Agora Rotaract</a></p>
                     </div>
                 </div>
             </div>
