@@ -47,7 +47,7 @@
                     </div>
                     <div class="col-lg-6 col-12">
                         <div class="banner-image">
-                            <img src="/assets/images/banner/banner.png" alt="banner-img">
+                            <img src="/assets/images/banner/banner.png?v=1.1.0" alt="banner-img">
                         </div>
                     </div>
                 </div>
