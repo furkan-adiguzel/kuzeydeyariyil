@@ -25,7 +25,7 @@
                                     <a href="#">
                                         <img src="/assets/images/speakers/ege-yigit.png" alt="speaker">
                                         <h3 class="text-center pt-3">Ege Yiğit Ece</h3>
-                                        <p>Rotaract 2440. Bölge Rotaract Temsilcisi</p>
+                                        <p class="text-center">Rotaract 2440. Bölge Rotaract Temsilcisi</p>
                                     </a>
                                 </div>
 
@@ -39,7 +39,7 @@
                                     <a href="#">
                                         <img src="/assets/images/speakers/orhan-berkin.png" alt="speaker">
                                         <h3 class="text-center pt-3">Orhan Berkin Bizsan</h3>
-                                        <p>Balıkesir Rotaract Kulübü Başkanı</p>
+                                        <p class="text-center">Balıkesir Rotaract Kulübü Başkanı</p>
                                     </a>
                                 </div>
 
@@ -53,7 +53,7 @@
                                     <a href="#">
                                         <img src="/assets/images/speakers/guliz.png" alt="speaker">
                                         <h3 class="text-center pt-3">Güliz Başaran</h3>
-                                        <p>Çanakkale Rotaract Kulübü Başkanı </p>
+                                        <p class="text-center">Çanakkale Rotaract Kulübü Başkanı </p>
                                     </a>
                                 </div>
 
@@ -64,10 +64,10 @@
                     <div class="col-lg-6 col-12 pt-5">
                         <div class="speaker-item-2">
                             <div class="speaker-inner">
-                                <div class="speaker-thumb">
+                                <div class="speaker-thumb text-center">
                                     <a href="#">
-                                        <p>Furkan Adıgüzel</p>
-                                        <p>Özenç Akova</p>
+                                        <p class="text-center">Furkan Adıgüzel</p>
+                                        <p class="text-center">Özenç Akova</p>
                                     </a>
                                 </div>
                             </div>

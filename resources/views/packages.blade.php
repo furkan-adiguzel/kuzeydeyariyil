@@ -32,14 +32,14 @@
                                     </div>
                                     <div class="news-content">
                                         <h6><a href="#" style="text-align: center">
-                                                @if(in_array($package->p_id, [1,2,5,6], true))
-                                                .<del>{{ $package->name }}</del>
-                                                    <b>Tükendi</b>
-                                                @else
-                                                    {{ $package->name }}
-                                                @endif
-                                            </a>
-                                        </h6>
+{{--                                                @if(in_array($package->p_id, [1,2,5,6], true))--}}
+{{--                                                .<del>{{ $package->name }}</del>--}}
+{{--                                                    <b>Tükendi</b>--}}
+{{--                                                @else--}}
+{{--                                                    {{ $package->name }}--}}
+{{--                                                @endif--}}
+{{--                                            </a>--}}
+{{--                                        </h6>--}}
 
                                         <div class="pricing-item">
                                             <div class="pricing-inner">

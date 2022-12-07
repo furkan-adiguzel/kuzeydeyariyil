@@ -63,72 +63,132 @@
 
     <!-- Gallary section start here-->
 
-{{--    <div class="gallery-section padding-tb">--}}
-{{--        <div class="container">--}}
-{{--            <div class="grid pb-15">--}}
-{{--                <div class="grid-item eid-ul-adha eid-ul-fitr">--}}
-{{--                    <div class="grid-inner">--}}
-{{--                        <div class="grid-thumb">--}}
-{{--                            <img src="/assets/images/hotel/1.jpeg" alt="gallery-img">--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-content p-2">--}}
-{{--                            <a href="/assets/images/hotel/1.jpeg" data-rel="lightcase"><i--}}
-{{--                                    class="icofont-expand"></i></a>--}}
-{{--                            <h5>Havuz</h5>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="grid-item ramadan">--}}
-{{--                    <div class="grid-inner">--}}
-{{--                        <div class="grid-thumb">--}}
-{{--                            <img src="/assets/images/hotel/2.jpeg" alt="gallery-img">--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-content">--}}
-{{--                            <a href="/assets/images/hotel/2.jpeg" data-rel="lightcase"><i--}}
-{{--                                    class="icofont-expand"></i></a>--}}
-{{--                            <h5>Dış Görünüm</h5>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="grid-item ramadan eid-ul-fitr">--}}
-{{--                    <div class="grid-inner">--}}
-{{--                        <div class="grid-thumb">--}}
-{{--                            <img src="/assets/images/hotel/4.jpeg" alt="gallery-img">--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-content">--}}
-{{--                            <a href="/assets/images/hotel/4.jpeg" data-rel="lightcase"><i--}}
-{{--                                    class="icofont-expand"></i></a>--}}
-{{--                            <h5>Dış Görünüm</h5>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="grid-item ramadan shab-e-barat">--}}
-{{--                    <div class="grid-inner">--}}
-{{--                        <div class="grid-thumb">--}}
-{{--                            <img src="/assets/images/hotel/3.jpeg" alt="gallery-img">--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-content">--}}
-{{--                            <a href="/assets/images/hotel/3.jpeg" data-rel="lightcase"><i--}}
-{{--                                    class="icofont-expand"></i></a>--}}
-{{--                            <h5>Odalar</h5>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="grid-item shab-e-barat eid-ul-fitr">--}}
-{{--                    <div class="grid-inner">--}}
-{{--                        <div class="grid-thumb">--}}
-{{--                            <img src="/assets/images/hotel/5.jpeg" alt="gallery-img">--}}
-{{--                        </div>--}}
-{{--                        <div class="grid-content">--}}
-{{--                            <a href="/assets/images/hotel/5.jpeg" data-rel="lightcase"><i--}}
-{{--                                    class="icofont-expand"></i></a>--}}
-{{--                            <h5>Odalar</h5>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
+    <div class="gallery-section padding-tb">
+        <div class="container">
+            <div class="grid pb-15">
+                <div class="grid-item eid-ul-adha eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/1.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content p-2">
+                            <a href="/assets/images/hotel/1.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Havuz</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ramadan">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/2.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/2.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Dış Görünüm</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ramadan eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/4.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/4.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Dış Görünüm</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item ramadan shab-e-barat">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/3.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/3.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/5.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/5.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/6.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/6.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/7.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/7.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/8.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/8.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/9.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/9.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item shab-e-barat eid-ul-fitr">
+                    <div class="grid-inner">
+                        <div class="grid-thumb">
+                            <img src="/assets/images/hotel/10.jpeg" alt="gallery-img">
+                        </div>
+                        <div class="grid-content">
+                            <a href="/assets/images/hotel/10.jpeg" data-rel="lightcase"><i
+                                    class="icofont-expand"></i></a>
+                            <h5>Odalar</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Gallary section end here-->
 

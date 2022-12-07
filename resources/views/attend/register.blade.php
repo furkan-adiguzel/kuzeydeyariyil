@@ -46,27 +46,25 @@
                     <div class="form-group"><input type="number" placeholder="T.C. Kimlik" name="identity" required></div>
                     <div class="form-group">
                         <select name="club" required>
-                            <option>Kulüp</option>
+                            <option style="color:black">Kulüp</option>
                             @foreach($clubs as $key => $club)
-                                <option value="{{ $key }}">{{ $club }}</option>
+                                <option style="color:black" value="{{ $key }}">{{ $club }}</option>
                             @endforeach
                         </select>
                     </div>
                     <div class="form-group">
                         <select name="position" required>
-                            <option>Görev</option>
+                            <option style="color:black">Görev</option>
                             @foreach($positions as $key => $club)
-                                <option value="{{ $key }}">{{ $club }}</option>
+                                <option style="color:black" value="{{ $key }}">{{ $club }}</option>
                             @endforeach
                         </select>
                     </div>
                     <div class="form-group">
                         <select name="package" required>
-                            <option>Paket Seçin</option>
+                            <option style="color:black">Paket Seçin</option>
                             @foreach($packages as $package)
-                                @if(!in_array($package->p_id, [1,2], true))
-                                    <option value="{{ $package->p_id }}">{{ $package->name }} ({!! empty($package->description) ? $package->night.' Gece - '. $package->room_person.' Kişi' : $package->description  !!})</option>
-                                @endif
+                                <option style="color:black" value="{{ $package->p_id }}">{{ $package->name }} ({!! empty($package->description) ? $package->night.' Gece - '. $package->room_person.' Kişi' : $package->description  !!})</option>
                             @endforeach
                         </select>
                     </div>
@@ -80,11 +78,11 @@
                     <br>
                     <div style="text-align: left">
                     <p>
-                        Ön ödemelerinizi "<strong>Meriç Kaplan</strong>" adına aşağıdaki IBAN adresine yapınız. <br/>
-                        Meriç Kaplan<br>
-                        TR49 0006 2000 2390 0006 6436 29
+                        Ön ödemelerinizi "<strong>Mert Sökmen</strong>" adına aşağıdaki IBAN adresine yapınız. <br/>
+                        Mert Sökmen Akbank<br>
+                        TR66 0004 6000 7388 8000 4032 84
                     </p>
-                        <p>İndirimli kayıt dönemi sona ermiştir. Normal kayıtlar <b>28 Şubat</b>'a kadar devam edecek.
+                        Kayıtlar <b>1 Ocak</b>'a kadar devam edecek.
                         Normal kayıt dönemi için yapılması
                         gereken en düşük ön ödeme miktarları:<br/>
                         <span style="display: inline-block; width: 100px;">P2P</span>         : 280₺<br/>
