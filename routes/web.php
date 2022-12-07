@@ -19,7 +19,7 @@ use App\Http\Controllers\ProfileController;
 
 Route::get('/coming-soon', [HomeController::class, 'coming'])->name('coming-soon');
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/committee/{slug}', [HomeController::class, 'committeeDetail'])->name('committee.detail');
+//Route::get('/committee/{slug}', [HomeController::class, 'committeeDetail'])->name('committee.detail');
 Route::get('/committee', [HomeController::class, 'committee'])->name('committee');
 Route::get('/hotel', [HomeController::class, 'hotel'])->name('hotel');
 Route::get('/kvkk', [HomeController::class, 'kvkk'])->name('kvkk');

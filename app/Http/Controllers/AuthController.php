@@ -135,10 +135,10 @@ class AuthController extends Controller
     function sendSMS($mobile, $password){
         $netGSMUsercode = '2323320497';
         $netGSMPassword = urlencode('M3.14f5C');
-        $message = urlencode("Asamble2022 hesabınız oluşturulmuştur. Giriş bilgileriniz
+        $message = urlencode("Kuzeyde Yarıyıl hesabınız oluşturulmuştur. Giriş bilgileriniz
         Telefon: {$mobile}
         Şifre: {$password}
-        Gelecağin Asamblesinde Görüşmek Üzere...");
+        Kuzeyde Yarıyıl Görüşmek Üzere...");
         $title = urlencode('Agora RAC');
         $url = "https://api.netgsm.com.tr/sms/send/get/?usercode={$netGSMUsercode}&password={$netGSMPassword}&gsmno={$mobile}&message={$message}&msgheader={$title}&dil=TR";
 
