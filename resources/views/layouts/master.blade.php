@@ -155,7 +155,7 @@
 <script src="/assets/js/lightcase.js"></script>
 <script src="/assets/js/functions.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/RobinHerbots/jquery.inputmask@5.0.0-beta.87/dist/jquery.inputmask.min.js"></script>
-//<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9e0ece86-4a63-4d56-a726-cec898902c58";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+{{--<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9e0ece86-4a63-4d56-a726-cec898902c58";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>--}}
 
 
 <script>

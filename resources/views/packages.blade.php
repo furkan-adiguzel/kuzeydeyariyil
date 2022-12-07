@@ -27,9 +27,7 @@
                         <div class="col-lg-4 col-sm-6 col-xs-12">
                             <div class="news-item">
                                 <div class="news-inner">
-                                    <div class="news-thumb">
-                                        <img src="assets/images/packages/{{$package->image}}" alt="{{ $package->name }}">
-                                    </div>
+
                                     <div class="news-content">
                                         <h6><a href="#" style="text-align: center">
 {{--                                                @if(in_array($package->p_id, [1,2,5,6], true))--}}
@@ -66,8 +64,8 @@
                                                             <ul>
                                                                 @if(!is_null($package->night))
                                                                 <li class="vat">
-                                                                    <h4>{{$package->night}}</h4>
-                                                                    <p>Gece</p>
+                                                                    <h4 style="color:white!important;">{{$package->night}}</h4>
+                                                                    <p style="color:white!important;">Gece</p>
                                                                 </li>
                                                                 @endif
                                                                 <li class="icon">
@@ -75,13 +73,13 @@
                                                                 </li>
                                                                 @if(!is_null($package->night))
                                                                 <li class="vat">
-                                                                    <h4>{{$package->room_person}}</h4>
-                                                                    <p>Kişi</p>
+                                                                    <h4 style="color:white!important;">{{$package->room_person}}</h4>
+                                                                    <p style="color:white!important;">Kişi</p>
                                                                 </li>
                                                                 @endif
                                                                 @if(!empty($package->description))
                                                                     <li class="vat">
-                                                                        <p>{{$package->description}}</p>
+                                                                        <p style="color:white!important;">{{$package->name}}</p>
                                                                     </li>
                                                                 @endif
                                                             </ul>

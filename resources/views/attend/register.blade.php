@@ -64,7 +64,7 @@
                         <select name="package" required>
                             <option style="color:black">Paket Seçin</option>
                             @foreach($packages as $package)
-                                <option style="color:black" value="{{ $package->p_id }}">{{ $package->name }} ({!! empty($package->description) ? $package->night.' Gece - '. $package->room_person.' Kişi' : $package->description  !!})</option>
+                                <option style="color:black" value="{{ $package->p_id }}">{{ $package->name }} ({!! empty($package->description) ? $package->night.' Gece - '. $package->room_person.' Kişi' : $package->description  !!}) </option>
                             @endforeach
                         </select>
                     </div>
@@ -84,16 +84,16 @@
                     </p>
                         Kayıtlar <b>1 Ocak</b>'a kadar devam edecek.
                         Normal kayıt dönemi için yapılması
-                        gereken en düşük ön ödeme miktarları:<br/>
-                        <span style="display: inline-block; width: 100px;">P2P</span>         : 280₺<br/>
-                        <span style="display: inline-block; width: 100px;">Miner</span>       : 430₺<br/>
-                        <span style="display: inline-block; width: 100px;">Airdrop</span>     : 320₺<br/>
-                        <span style="display: inline-block; width: 100px;">Swap</span>        : 390₺<br/>
-                        <span style="display: inline-block; width: 100px;">Public Key</span>  : 280₺<br/>
-                        <span style="display: inline-block; width: 100px;">Defi</span>        : 320₺<br/>
-                        <span style="display: inline-block; width: 100px;">Whitepaper</span>  : 340₺<br/>
-                        <span style="display: inline-block; width: 100px;">Nft</span>         : 390₺<br/>
-                        <span style="display: inline-block; width: 100px;">Gas fee</span>     : 540₺<br/>
+                        gereken en düşük ön ödeme miktarları:<br/><br/>
+                        (Ücretler kişi başıdır.)<br/>
+                        <span style="display: inline-block; width: 100px;">Greyjoy</span>: 280₺<br/>
+                        <span style="display: inline-block; width: 100px;">Tully</span>: 430₺<br/>
+                        <span style="display: inline-block; width: 100px;">Baratheon</span>: 320₺<br/>
+                        <span style="display: inline-block; width: 100px;">Lannister</span>: 390₺<br/>
+                        <span style="display: inline-block; width: 100px;">Targaryen</span>: 280₺<br/>
+                        <span style="display: inline-block; width: 100px;">Tyrell</span>: 320₺<br/>
+                        <span style="display: inline-block; width: 100px;">Stark</span>: 340₺<br/>
+
                     </p>
                     </div>
                     <div class="form-group" style="text-align: left; margin-top: 25px;">
