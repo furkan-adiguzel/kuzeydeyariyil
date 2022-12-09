@@ -21,7 +21,6 @@
                     <p>
                         *Konaklama içeren paketlere "Toplantı" ve "Gala" ücretleri dahildir.<br/>
                         *Tüm paket fiyatları kişi başı ücretlerdir.<br/>
-                        *Etkinlik "Her şey dahil" konseptinde gerçekleşecektir.
                         *Erken kayıt ücreti ilk 20 kayıt için geçerlidir!
                     </p>
                     @foreach($packages as $package)

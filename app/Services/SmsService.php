@@ -6,9 +6,9 @@ class SmsService
 {
 
     public function send($number, $message){
-        $netGSMUsercode = '2323320497';
-        $netGSMPassword = urlencode('M3.14f5C');
-        $title = urlencode('Agora RAC');
+        $netGSMUsercode = '2666060795';
+        $netGSMPassword = urlencode('-K7U5.W.');
+        $title = urlencode('Kuzeyde Yariyil');
         $message = urlencode($message);
         $url = "https://api.netgsm.com.tr/sms/send/get/?usercode={$netGSMUsercode}&password={$netGSMPassword}&gsmno={$number}&message={$message}&msgheader={$title}&dil=TR";
 
