@@ -51,9 +51,9 @@
                         <li><a href="{{ route('hotel') }}">Otel</a></li>
                         <li><a href="{{ route('program') }}">Program</a></li>
                         <li><a href="{{ route('sponsors') }}">Sponsorlar</a></li>
-                        @if(Auth::check())
+                        <li><a href="{{ route('packages') }}">Paketler</a></li>
+                    @if(Auth::check())
                             <li><a href="{{ route('attenders') }}">Katılımcılar</a></li>
-                            <li><a href="{{ route('packages') }}">Paketler</a></li>
                             @if(! Auth::user()->attender)
                                 <li><a href="{{ route('attend.register') }}" >Asamble'ye Katıl</a></li>
                             @endif

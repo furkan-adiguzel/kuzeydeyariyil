@@ -174,18 +174,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid-item shab-e-barat eid-ul-fitr">
-                    <div class="grid-inner">
-                        <div class="grid-thumb">
-                            <img src="/assets/images/hotel/10.jpeg" alt="gallery-img">
-                        </div>
-                        <div class="grid-content">
-                            <a href="/assets/images/hotel/10.jpeg" data-rel="lightcase"><i
-                                    class="icofont-expand"></i></a>
-                            <h5>Odalar</h5>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="grid-item shab-e-barat eid-ul-fitr">--}}
+{{--                    <div class="grid-inner">--}}
+{{--                        <div class="grid-thumb">--}}
+{{--                            <img src="/assets/images/hotel/10.jpeg" alt="gallery-img">--}}
+{{--                        </div>--}}
+{{--                        <div class="grid-content">--}}
+{{--                            <a href="/assets/images/hotel/10.jpeg" data-rel="lightcase"><i--}}
+{{--                                    class="icofont-expand"></i></a>--}}
+{{--                            <h5>Odalar</h5>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>

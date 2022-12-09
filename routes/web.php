@@ -19,10 +19,11 @@ use App\Http\Controllers\ProfileController;
 
 Route::get('/coming-soon', [HomeController::class, 'coming'])->name('coming-soon');
 Route::get('/', [HomeController::class, 'index'])->name('home');
-//Route::get('/committee/{slug}', [HomeController::class, 'committeeDetail'])->name('committee.detail');
+Route::get('/committee/{slug}', [HomeController::class, 'committeeDetail'])->name('committee.detail');
 Route::get('/committee', [HomeController::class, 'committee'])->name('committee');
 Route::get('/hotel', [HomeController::class, 'hotel'])->name('hotel');
 Route::get('/kvkk', [HomeController::class, 'kvkk'])->name('kvkk');
+Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
 Route::get('/sponsors', [HomeController::class, 'sponsors'])->name('sponsors');
 Route::get('/program', [HomeController::class, 'program'])->name('program');
 
@@ -37,7 +38,6 @@ Route::get('/roommate/{token}', [ProfileController::class, 'acceptRoommateReques
 
 Route::middleware(['auth'])->group(function () {
     Route::get('/auth/logout', [AuthController::class, 'logout'])->name('auth.logout')->middleware('auth');
-    Route::get('/packages', [HomeController::class, 'packages'])->name('packages');
     Route::get('/attenders', [AttendController::class, 'attenders'])->name('attenders');
     Route::get('/attend/register', [AttendController::class, 'register'])->name('attend.register');
     Route::post('/attend/register', [AttendController::class, 'register']);

@@ -22,6 +22,7 @@
                         *Konaklama içeren paketlere "Toplantı" ve "Gala" ücretleri dahildir.<br/>
                         *Tüm paket fiyatları kişi başı ücretlerdir.<br/>
                         *Etkinlik "Her şey dahil" konseptinde gerçekleşecektir.
+                        *Erken kayıt ücreti ilk 20 kayıt için geçerlidir!
                     </p>
                     @foreach($packages as $package)
                         <div class="col-lg-4 col-sm-6 col-xs-12">
@@ -42,23 +43,23 @@
                                         <div class="pricing-item">
                                             <div class="pricing-inner">
                                                 <div class="pricing-content">
-{{--                                                    <ul class="facilites">--}}
+                                                    <ul class="facilites">
+                                                        <li class="facility-item">
+                                                            <span>
+                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                                            </span> Erken Kayıt {{$package->price_1}} ₺
+                                                        </li>
 {{--                                                        <li class="facility-item">--}}
 {{--                                                            <span>--}}
 {{--                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>--}}
-{{--                                                            </span> <del>Erken Kayıt {{$package->price_1}} ₺</del>--}}
+{{--                                                            </span> İndirimli Kayıt {{$package->price_2}} ₺--}}
 {{--                                                        </li>--}}
-{{--                                                        <li class="facility-item">--}}
-{{--                                                            <span>--}}
-{{--                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>--}}
-{{--                                                            </span> <del>İndirimli Kayıt  {{$package->price_2}} ₺</del>--}}
-{{--                                                        </li>--}}
-{{--                                                        <li class="facility-item">--}}
-{{--                                                            <span>--}}
-{{--                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>--}}
-{{--                                                            </span> Normal Kayıt  {{$package->price_3}} ₺--}}
-{{--                                                        </li>--}}
-{{--                                                    </ul>--}}
+                                                        <li class="facility-item">
+                                                            <span>
+                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                                                            </span> Normal Kayıt  {{$package->price_2}} ₺
+                                                        </li>
+                                                    </ul>
                                                     <div class="get-ticket">
                                                         <a href="{{ route('attend.register') }}">
                                                             <ul>
