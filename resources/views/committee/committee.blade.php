@@ -86,7 +86,7 @@
                                     <a href="#" class="committee-member-link ">
                                         <img class="committee-member-pic" src="/assets/images/speakers/beste.png" alt="speaker">
                                         <h3 class="text-center pt-3">Beste Sarsılmaz</h3>
-                                        <p class="text-center">Balıkesir Rotaract Kulübü Başkanı</p>
+                                        <p class="text-center">Tasarım komitesi Başkanı</p>
                                     </a>
                                 </div>
                             </div>
@@ -97,6 +97,8 @@
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
                                     <a href="#">
+                                        <p class="text-center">Mert Sökmen - Sponsorluk ve Mali İşler Komite Başkanı</p>
+                                        <p class="text-center">Esra Bizsan - Sosyal Etkinlikler Komite Başkanı</p>
                                         <p class="text-center">Furkan Adıgüzel</p>
                                     </a>
                                 </div>
