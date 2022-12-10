@@ -102,83 +102,95 @@
 {{--        </div>--}}
 {{--    </section>--}}
 
-{{--    <!-- Speakers section start here -->--}}
-{{--    <section class="speakers-section padding-tb padding-b">--}}
-{{--        <div class="container">--}}
-{{--            <div class="section-header">--}}
-{{--                <h2>Komite Üyeleri</h2>--}}
-{{--                <p>Asambe2022 Komite Üyeleri</p>--}}
-{{--            </div>--}}
+    <!-- Speakers section start here -->
+    <section class="speakers-section padding-tb padding-b">
+        <div class="container">
+            <div class="section-header">
+                <h2>Komite Üyeleri</h2>
+                <p>Asambe2022 Komite Üyeleri</p>
+            </div>
 
 
-{{--            <div class="section-wrapper shape-b">--}}
+            <div class="section-wrapper shape-b">
 
 
-{{--                <div class="row g-5">--}}
-{{--                    <div class="speaker-item">--}}
-{{--                        <div class="speaker-inner">--}}
-{{--                            <div class="speaker-thumb text-center">--}}
-{{--                                <img src="/assets/images/speakers/ege.png" alt="speaker">--}}
-{{--                            </div>--}}
-{{--                            <div class="speaker-content">--}}
-{{--                                <div class="spkr-content-title">--}}
-{{--                                    <h5><a href="{{ route('committee.detail', ['slug' => 'ege']) }}">Ege Yigit Ece</a> </h5>--}}
-{{--                                    <p>GLD Bölge Rotaract Temsilcisi</p>--}}
-{{--                                </div>--}}
-{{--                                <div class="spkr-content-details">--}}
-{{--                                    <p>Değerli Rotary ve Rotaract Ailem,--}}
-{{--                                        Bölgemizin en büyük ve önemli organizasyonlarından olan Asamble’leler her dönem içinde heyecanla beklenen, sıcaklığını asla kaybetmeyen ve yeni döneme ilk adımların atıldığı organizasyonumuzdur. </p>--}}
-{{--                                    <a href="{{ route('committee.detail', ['slug' => 'ege']) }}" class="pink">Devamı</a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-12">--}}
-{{--                        <div class="speaker-item">--}}
-{{--                            <div class="speaker-inner">--}}
-{{--                                <div class="speaker-thumb text-center">--}}
-{{--                                    <img src="/assets/images/speakers/ozenc.png" alt="speaker">--}}
-{{--                                </div>--}}
-{{--                                <div class="speaker-content">--}}
-{{--                                    <div class="spkr-content-title">--}}
-{{--                                        <h5><a href="#">Özenç Akova</a> </h5>--}}
-{{--                                        <p>Kulüp Başkanı</p>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="spkr-content-details">--}}
-{{--                                        <p>Değerli Rotary ve Rotaract Ailem;--}}
+                <div class="row g-5">
+                    <div class="speaker-item">
+                        <div class="speaker-inner">
+                            <div class="speaker-thumb text-center">
+                                <img src="/assets/images/speakers/ege.png" alt="speaker">
+                            </div>
+                            <div class="speaker-content">
+                                <div class="spkr-content-title">
+                                    <h5><a href="{{ route('committee.detail', ['slug' => 'ege']) }}" style="color:white!important">Ege Yigit Ece</a> </h5>
+                                    <p>Rotaract 2440. Bölge Rotaract Temsilcisi</p>
+                                </div>
+                                <div class="spkr-content-details">
 
-{{--                                            Agora Rotaract Kulübü olarak, yeni bir döneme, yeni deneyimlere, yeni heyecanlara hep--}}
-{{--                                            beraber hoş geldin diyeceğimiz dönemin en keyifli organizasyonuna, 23. UR 2440. Bölge--}}
-{{--                                            Rotaract Asamblesi’ne ev sahipliği yapacak olmanın sevincini yaşıyoruz.</p>--}}
-{{--                                        <a href="#" class="pink">Devamı</a>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                    <div class="speaker-item">--}}
-{{--                        <div class="speaker-inner">--}}
-{{--                            <div class="speaker-thumb text-center">--}}
-{{--                                <img src="/assets/images/speakers/ceren.png" alt="speaker">--}}
-{{--                            </div>--}}
-{{--                            <div class="speaker-content">--}}
-{{--                                <div class="spkr-content-title">--}}
-{{--                                    <h5><a href="{{ route('committee.detail', ['slug' => 'ceren']) }}">Ceren Arsal</a> </h5>--}}
-{{--                                    <p>Asamble Komite Başkanı</p>--}}
-{{--                                </div>--}}
-{{--                                <div class="spkr-content-details">--}}
-{{--                                    <p>Değerli Rotary ve Rotaract Ailem,--}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="speaker-item">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb text-center">
+                                    <img src="/assets/images/speakers/evren.png" alt="speaker">
+                                </div>
+                                <div class="speaker-content">
+                                    <div class="spkr-content-title">
+                                        <h5><a href="{{ route('committee.detail', ['slug' => 'evren']) }}" style="color:white!important">Evren Köybaşı</a> </h5>
+                                        <p>13. Yarıyıl Değerlendirme Zirvesi Komite Başkanı</p>
+                                    </div>
+                                    <div class="spkr-content-details">
+                                        <p>Değerli Rotary ve Rotaract Ailem,
+                                            1 Temmuz 2022’de Rotary ile Hayal Edelim sloganıyla başladığımız bu dönemimiz her yıl olduğu gibi bu yıl da harika hatıralar biriktirerek devam ediyor. </p>
+                                        <a href="{{ route('committee.detail', ['slug' => 'evren']) }}" class="pink" style="color:white!important">Devamı</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="speaker-item">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb text-center">
+                                    <img style="max-height:280px" src="/assets/images/speakers/guliz.png" alt="speaker">
+                                </div>
+                                <div class="speaker-content">
+                                    <div class="spkr-content-title">
+                                        <h5><a href="{{ route('committee.detail', ['slug' => 'evren']) }}" style="color:white!important">Güliz Başaran</a> </h5>
+                                        <p>Çanakkale Rotaract Kulübü Başkanı</p>
+                                    </div>
+                                    <div class="spkr-content-details">
 
-{{--                                        Bölge Rotaract Asamblesi’ne, geçmişten gelen değerleri ve geleceğe atılan temelleri ile bu sene Agora Rotaract Kulübü olarak ev sahipliği yapacak olmaktan büyük mutluluk duyuyoruz. </p>--}}
-{{--                                    <a href="{{ route('committee.detail', ['slug' => 'ceren']) }}" class="pink">Devamı</a>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </section>--}}
-{{--    <!-- Speakers section end here -->--}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="speaker-item">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb text-center">
+                                    <img style="max-height:280px" src="/assets/images/speakers/orhan-berkin.png" alt="speaker">
+                                </div>
+                                <div class="speaker-content">
+                                    <div class="spkr-content-title">
+                                        <h5><a href="{{ route('committee.detail', ['slug' => 'evren']) }}" style="color:white!important">Orhan Berkin Bizsan</a> </h5>
+                                        <p>Balıkesir Rotaract Kulübü Başkanı</p>
+                                    </div>
+                                    <div class="spkr-content-details">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Speakers section end here -->
 
 @endsection

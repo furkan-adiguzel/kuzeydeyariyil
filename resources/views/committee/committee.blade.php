@@ -60,7 +60,7 @@
                                     <a href="#" class="committee-member-link ">
                                         <img class="committee-member-pic" src="/assets/images/speakers/guliz.png" alt="speaker">
                                         <h3 class="text-center pt-3">Güliz Başaran</h3>
-                                        <p class="text-center">Çanakkale Rotaract Kulübü Başkanı </p>
+                                        <p class="text-center">Çanakkale Rotaract Kulübü Başkanı</p>
                                     </a>
                                 </div>
                             </div>
@@ -87,6 +87,19 @@
                                         <img class="committee-member-pic" src="/assets/images/speakers/beste.png" alt="speaker">
                                         <h3 class="text-center pt-3">Beste Sarsılmaz</h3>
                                         <p class="text-center">Tasarım komitesi Başkanı</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="speaker-item-2">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb">
+                                    <a href="#" class="committee-member-link ">
+                                        <img class="committee-member-pic" src="/assets/images/speakers/emre.jpeg" alt="speaker">
+                                        <h3 class="text-center pt-3">Emre Açıl</h3>
+                                        <p class="text-center">Sosyal Etkinlikler Komite Başkanı</p>
                                     </a>
                                 </div>
                             </div>
