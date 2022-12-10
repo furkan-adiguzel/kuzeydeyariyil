@@ -107,7 +107,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Komite Üyeleri</h2>
-                <p>Asambe2022 Komite Üyeleri</p>
+                <p>Yarıyıl Değerlendirme Zirvesi Komite Üyeleri</p>
             </div>
 
 
