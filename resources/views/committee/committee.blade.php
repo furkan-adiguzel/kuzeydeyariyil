@@ -26,59 +26,59 @@
         <div class="container">
             <div class="section-wrapper">
                 <div class="row g-5 pt-5">
-                    <div class="col-lg-6 col-12">
-                        <div class="speaker-item-2">
-                            <div class="speaker-inner">
-                                <div class="speaker-thumb">
-                                    <a href="#" class="committee-member-link ">
-                                        <img class="committee-member-pic" src="/assets/images/speakers/ege-yigit.png" alt="speaker">
-                                        <h3 class="text-center pt-3">Ege Yiğit Ece</h3>
-                                        <p class="text-center">Rotaract 2440. Bölge Rotaract Temsilcisi</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="speaker-item-2">
-                            <div class="speaker-inner">
-                                <div class="speaker-thumb">
-                                    <a href="{{ route('committee.detail', ['slug' => 'evren']) }}" class="committee-member-link ">
-                                        <img class="committee-member-pic" src="/assets/images/speakers/evren.png" alt="speaker">
-                                        <h3 class="text-center pt-3">Evren Köybaşı</h3>
-                                        <p class="text-center">13. Yarıyıl Değerlendirme Zirvesi Komite Başkanı</p>
-                                    </a>
-                                </div>
+{{--                    <div class="col-lg-6 col-12">--}}
+{{--                        <div class="speaker-item-2">--}}
+{{--                            <div class="speaker-inner">--}}
+{{--                                <div class="speaker-thumb">--}}
+{{--                                    <a href="#" class="committee-member-link ">--}}
+{{--                                        <img class="committee-member-pic" src="/assets/images/speakers/ege-yigit.png" alt="speaker">--}}
+{{--                                        <h3 class="text-center pt-3">Ege Yiğit Ece</h3>--}}
+{{--                                        <p class="text-center">2440. Bölge Rotaract Temsilcisi</p>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-6 col-12">--}}
+{{--                        <div class="speaker-item-2">--}}
+{{--                            <div class="speaker-inner">--}}
+{{--                                <div class="speaker-thumb">--}}
+{{--                                    <a href="{{ route('committee.detail', ['slug' => 'evren']) }}" class="committee-member-link ">--}}
+{{--                                        <img class="committee-member-pic" src="/assets/images/speakers/evren.png" alt="speaker">--}}
+{{--                                        <h3 class="text-center pt-3">Evren Köybaşı</h3>--}}
+{{--                                        <p class="text-center">13.Yarıyıl Değerlendirme Zirvesi Koordinatörü</p>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="speaker-item-2">
-                            <div class="speaker-inner">
-                                <div class="speaker-thumb">
-                                    <a href="#" class="committee-member-link ">
-                                        <img class="committee-member-pic" src="/assets/images/speakers/guliz.png" alt="speaker">
-                                        <h3 class="text-center pt-3">Güliz Başaran</h3>
-                                        <p class="text-center">Çanakkale Rotaract Kulübü Başkanı</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-12">
-                        <div class="speaker-item-2">
-                            <div class="speaker-inner">
-                                <div class="speaker-thumb">
-                                    <a href="#" class="committee-member-link ">
-                                        <img class="committee-member-pic" src="/assets/images/speakers/orhan-berkin.png" alt="speaker">
-                                        <h3 class="text-center pt-3">Orhan Berkin Bizsan</h3>
-                                        <p class="text-center">Balıkesir Rotaract Kulübü Başkanı</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-6 col-12">--}}
+{{--                        <div class="speaker-item-2">--}}
+{{--                            <div class="speaker-inner">--}}
+{{--                                <div class="speaker-thumb">--}}
+{{--                                    <a href="#" class="committee-member-link ">--}}
+{{--                                        <img class="committee-member-pic" src="/assets/images/speakers/guliz.png" alt="speaker">--}}
+{{--                                        <h3 class="text-center pt-3">Güliz Başaran</h3>--}}
+{{--                                        <p class="text-center">Çanakkale Rotaract Kulübü Başkanı</p>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="col-lg-6 col-12">--}}
+{{--                        <div class="speaker-item-2">--}}
+{{--                            <div class="speaker-inner">--}}
+{{--                                <div class="speaker-thumb">--}}
+{{--                                    <a href="#" class="committee-member-link ">--}}
+{{--                                        <img class="committee-member-pic" src="/assets/images/speakers/orhan-berkin.png" alt="speaker">--}}
+{{--                                        <h3 class="text-center pt-3">Orhan Berkin Bizsan</h3>--}}
+{{--                                        <p class="text-center">Balıkesir Rotaract Kulübü Başkanı</p>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="col-lg-6 col-12">
                         <div class="speaker-item-2">
                             <div class="speaker-inner">
@@ -105,12 +105,24 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="speaker-item-2">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb">
+                                    <a href="#" class="committee-member-link ">
+                                        <img class="committee-member-pic" src="/assets/images/speakers/mert.jpeg" alt="speaker">
+                                        <h3 class="text-center pt-3">Mert Sökmen</h3>
+                                        <p class="text-center">Sponsorluk ve Mali İşler Komite Başkanı</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6 col-12 pt-5">
                         <div class="speaker-item-2">
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
                                     <a href="#">
-                                        <p class="text-center">Mert Sökmen<br>Sponsorluk ve Mali İşler Komite Başkanı</p>
                                         <p class="text-center">Esra Bizsan<br>Sosyal Etkinlikler Komite Başkanı</p>
                                         <p class="text-center">Furkan Adıgüzel</p>
                                     </a>

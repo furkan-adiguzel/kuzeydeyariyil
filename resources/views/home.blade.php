@@ -105,15 +105,13 @@
     <!-- Speakers section start here -->
     <section class="speakers-section padding-tb padding-b">
         <div class="container">
-            <div class="section-header">
-                <h2>Komite Üyeleri</h2>
-                <p>Yarıyıl Değerlendirme Zirvesi Komite Üyeleri</p>
-            </div>
+{{--            <div class="section-header">--}}
+{{--                <h2>Komite Üyeleri</h2>--}}
+{{--                <p>Yarıyıl Değerlendirme Zirvesi Komite Üyeleri</p>--}}
+{{--            </div>--}}
 
 
             <div class="section-wrapper shape-b">
-
-
                 <div class="row g-5">
                     <div class="speaker-item">
                         <div class="speaker-inner">
@@ -123,7 +121,7 @@
                             <div class="speaker-content">
                                 <div class="spkr-content-title">
                                     <h5><a href="{{ route('committee.detail', ['slug' => 'ege']) }}" style="color:white!important">Ege Yigit Ece</a> </h5>
-                                    <p>Rotaract 2440. Bölge Rotaract Temsilcisi</p>
+                                    <p>2440. Bölge Rotaract Temsilcisi</p>
                                 </div>
                                 <div class="spkr-content-details">
 
@@ -140,7 +138,7 @@
                                 <div class="speaker-content">
                                     <div class="spkr-content-title">
                                         <h5><a href="{{ route('committee.detail', ['slug' => 'evren']) }}" style="color:white!important">Evren Köybaşı</a> </h5>
-                                        <p>13. Yarıyıl Değerlendirme Zirvesi Komite Başkanı</p>
+                                        <p>13.Yarıyıl Değerlendirme Zirvesi Koordinatörü</p>
                                     </div>
                                     <div class="spkr-content-details">
                                         <p>Değerli Rotary ve Rotaract Ailem,
