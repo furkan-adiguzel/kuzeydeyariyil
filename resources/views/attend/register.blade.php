@@ -74,6 +74,8 @@
                     <div class="form-group"><input type="text" placeholder="Oda Arkadaşı 2 Ad Soyad" name="roommate_2_fullname"></div>
                     <div class="form-group"><input type="number" placeholder="Oda Arkadaşı 2 Cep Telefon" name="roommate_2_mobile"></div>
                     <div class="form-group"><input type="text" placeholder="Referans Olan Kişi Ad Soyad" name="reference"></div>
+                    <div class="form-group"><input type="text" placeholder="Referans Olan Kişi Ad Soyad" name="reference"></div>
+
                     -->
                     <br>
                     <div style="text-align: left">
