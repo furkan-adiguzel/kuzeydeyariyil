@@ -86,21 +86,21 @@
                         Normal kayıt dönemi için yapılması
                         gereken en düşük ön ödeme miktarları:<br/><br/>
                         (Ücretler kişi başıdır ve ilk 20 katılımcı içindir.)<br/>
-                        <span style="display: inline-block; width: 100px;">Greyjoy(1 kişilik oda 1 gece)</span>: 1750₺<br/> (ön ödeme tutarı en az 875₺)
-                        <span style="display: inline-block; width: 100px;">Tully(2 kişilik oda 1 gece)</span>: 1500₺<br/> (ön ödeme tutarı en az 750₺)
-                        <span style="display: inline-block; width: 100px;">Baratheon(3 kişilik oda 1 gece)</span>: 1450₺<br/> (ön ödeme tutarı en az 725₺)
-                        <span style="display: inline-block; width: 100px;">Lannister(1 kişilik oda 2 gece)</span>: 2500₺<br/> (ön ödeme tutarı en az 1250₺)
-                        <span style="display: inline-block; width: 100px;">Targaryen(2 kişilik oda 2 gece)</span>: 2000₺<br/> (ön ödeme tutarı en az 1000₺)
-                        <span style="display: inline-block; width: 100px;">Tyrell(3 kişilik oda 2 gece)</span>: 1900₺<br/> (ön ödeme tutarı en az 950₺)
-                        <span style="display: inline-block; width: 100px;">Stark</span>: 1425₺<br/> (ön ödeme tutarı en az 725₺)
-                        <span style="display: inline-block; width: 100px;">Martell</span>: 950₺<br/> (ön ödeme tutarı en az 475₺)
+                        <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 1750₺ (ön ödeme tutarı en az 875₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1500₺ (ön ödeme tutarı en az 750₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1450₺ (ön ödeme tutarı en az 725₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 2500₺ (ön ödeme tutarı en az 1250₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2000₺ (ön ödeme tutarı en az 1000₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Tyrell (3 kişilik oda 2 gece)</span>: 1900₺ (ön ödeme tutarı en az 950₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Stark (Toplantı+Gala)</span>: 1425₺ (ön ödeme tutarı en az 725₺)<br/>
+                        <span style="display: inline-block; width: 300px;">Martell (Toplantı)</span>: 950₺ (ön ödeme tutarı en az 475₺)<br/>
                     </p>
                     </div>
                     <div class="form-group" style="text-align: left; margin-top: 25px;">
                         <p>Paket ödemelerini 31 Aralık'a kadar tamamlamanız gerekmektedir. 31 Aralık 23.59'da tamamı ödenmemiş kayıtlar iptal edilecektir ve ilk yapılan ödemeler 3 ay içinde iade edilecektir.</p>
                         <p>Yaptığınız ödemenin dekontunun resmini yükleyin. Telefonda dekontun ekran görüntüsü alarak yükleyebilirsiniz. Dekont yüklemeden kayıt gerçekleştiremezsiniz. Dekont dışı yüklemelerde kayıtlar iptal edilecektir.</p>
                         <input type="file" id="file-receipt" name="receipt" placeholder="Dekont yükleyin" style="display: none" required>
-                        <button type="button" class="lab-btn" onclick="document.getElementById('file-receipt').click()" style="margin-top: 0; line-height: 40px; width: 200px;">
+                        <button type="button" class="lab-btn" onclick="document.getElementById('file-receipt').click()" style="margin-top: 0; line-height: 40px; width: 300px;">
                             <span>Dekont yükleyin</span>
                         </button>
                     </div>
