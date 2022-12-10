@@ -110,8 +110,8 @@
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
                                     <a href="#">
-                                        <p class="text-center">Mert Sökmen - Sponsorluk ve Mali İşler Komite Başkanı</p>
-                                        <p class="text-center">Esra Bizsan - Sosyal Etkinlikler Komite Başkanı</p>
+                                        <p class="text-center">Mert Sökmen<br>Sponsorluk ve Mali İşler Komite Başkanı</p>
+                                        <p class="text-center">Esra Bizsan<br>Sosyal Etkinlikler Komite Başkanı</p>
                                         <p class="text-center">Furkan Adıgüzel</p>
                                     </a>
                                 </div>
