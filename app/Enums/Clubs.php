@@ -15,7 +15,7 @@ abstract class Clubs
    const Alsancak = 2;
    const Bademli= 3;
    const Balcova = 4;
-   const Balikesir =5 ;
+   const Balikesir = 5;
    const Bandirma = 6;
    const Bornova = 8;
    const Bostanli = 9;

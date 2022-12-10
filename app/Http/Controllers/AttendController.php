@@ -28,7 +28,8 @@ class AttendController extends Controller
         $attenders = Attender::all();
 
         $clubs = Attender::all()->countBy('club')->sort()->reverse();
-        unset($clubs[1]);
+        unset($clubs[5]);
+        unset($clubs[12]);
 
         $groupedList = [];
         foreach ($attenders as $attender) {
