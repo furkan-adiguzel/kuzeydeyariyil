@@ -98,7 +98,7 @@
                     </div>
                     <div class="form-group" style="text-align: left; margin-top: 25px;">
                         <p>Paket ödemelerini 31 Aralık'a kadar tamamlamanız gerekmektedir. 31 Aralık 23.59'da tamamı ödenmemiş kayıtlar iptal edilecektir ve ilk yapılan ödemeler 3 ay içinde iade edilecektir.</p>
-                        <p>Yaptığınız ödemenin dekontunun resmini yükleyin. Telefonda dekont'u ekran görüntüsü alarak yükleyebilirsiniz. Dekont yüklemeden kayıt'ı gerçekleştiremezsiniz!</p>
+                        <p>Yaptığınız ödemenin dekontunun resmini yükleyin. Telefonda dekontun ekran görüntüsü alarak yükleyebilirsiniz. Dekont yüklemeden kayıt gerçekleştiremezsiniz. Dekont dışı yüklemelerde kayıtlar iptal edilecektir.</p>
                         <input type="file" id="file-receipt" name="receipt" placeholder="Dekont yükleyin" style="display: none" required>
                         <button type="button" class="lab-btn" onclick="document.getElementById('file-receipt').click()" style="margin-top: 0; line-height: 40px; width: 200px;">
                             <span>Dekont yükleyin</span>
