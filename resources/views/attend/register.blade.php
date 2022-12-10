@@ -85,14 +85,14 @@
                         Kayıtlar <b>1 Ocak</b>'a kadar devam edecek.
                         Normal kayıt dönemi için yapılması
                         gereken en düşük ön ödeme miktarları:<br/><br/>
-                        (Ücretler kişi başıdır.)<br/>
-                        <span style="display: inline-block; width: 100px;">Greyjoy</span>: 280₺<br/>
-                        <span style="display: inline-block; width: 100px;">Tully</span>: 430₺<br/>
-                        <span style="display: inline-block; width: 100px;">Baratheon</span>: 320₺<br/>
-                        <span style="display: inline-block; width: 100px;">Lannister</span>: 390₺<br/>
-                        <span style="display: inline-block; width: 100px;">Targaryen</span>: 280₺<br/>
-                        <span style="display: inline-block; width: 100px;">Tyrell</span>: 320₺<br/>
-                        <span style="display: inline-block; width: 100px;">Stark</span>: 340₺<br/>
+                        (Ücretler kişi başıdır ve ilk 20 katılımcı içindir.)<br/>
+                        <span style="display: inline-block; width: 100px;">Greyjoy</span>: 1750₺<br/>
+                        <span style="display: inline-block; width: 100px;">Tully</span>: 1500₺<br/>
+                        <span style="display: inline-block; width: 100px;">Baratheon</span>: 1450₺<br/>
+                        <span style="display: inline-block; width: 100px;">Lannister</span>: 2500₺<br/>
+                        <span style="display: inline-block; width: 100px;">Targaryen</span>: 2000₺<br/>
+                        <span style="display: inline-block; width: 100px;">Tyrell</span>: 1900₺<br/>
+                        <span style="display: inline-block; width: 100px;">Stark</span>: 1425₺<br/>
 
                     </p>
                     </div>
