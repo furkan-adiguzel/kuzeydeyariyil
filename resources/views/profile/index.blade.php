@@ -205,7 +205,7 @@
                                                 <div class="entry-content">
                                                     <div>
                                                         Henüz Asamble katıl kaydınızı yapmamışsınız. Diğer adımları gerçekleştirmek için hemen kaydınızı yapın.<br>
-                                                        <strong><a href="{{ route('attend.register') }}" >Asamble'ye Katıl</a></strong>
+                                                        <strong><a href="{{ route('attend.register') }}" >Kayıt Ol</a></strong>
                                                     </div>
                                                 </div>
                                             </div>

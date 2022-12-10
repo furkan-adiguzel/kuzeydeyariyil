@@ -48,7 +48,7 @@ class Reminder extends Command
         $this->info('Reminder started');
 
         $users = User::doesntHave('attender')->get();
-        $message = 'Son 5 kişilik kontenjanımız kalmıştır!\nGeleceğin Asamblesinde bizimle olmak için çok geç olmadan kaydını yaptır. asamble2022.com';
+        $message = 'Son 5 kisilik kontenjanımız kalmistir! Kuzeyde Yariyil Degerlendirme Zirvesinde bizimle olmak icin cok gec olmadan kaydini yaptir. kuzeydeyariyil.com.tr';
 
         foreach ($users as $user) {
             $this->smsService->send($user->mobile , $message);

@@ -78,11 +78,11 @@ class AuthController extends Controller
 
             $password = rand(100000, 999999);
 
-            Log::info('---------------------------------------------------------------------------------------------------------------------');
-            Log::info($password);
-            Log::info($request->post('name'),);
-            Log::info($request->post('mobile'),);
-            Log::info('---------------------------------------------------------------------------------------------------------------------');
+//            Log::info('---------------------------------------------------------------------------------------------------------------------');
+//            Log::info($password);
+//            Log::info($request->post('name'),);
+//            Log::info($request->post('mobile'),);
+//            Log::info('---------------------------------------------------------------------------------------------------------------------');
 
 
             if ($this->sendSMS($request->post('mobile'), $password)) {
@@ -133,27 +133,49 @@ class AuthController extends Controller
 
 
     function sendSMS($mobile, $password){
-        $netGSMUsercode = '2323320497';
-        $netGSMPassword = urlencode('M3.14f5C');
-        $message = urlencode("Kuzeyde Yarıyıl hesabınız oluşturulmuştur. Giriş bilgileriniz
-        Telefon: {$mobile}
-        Şifre: {$password}
-        Kuzeyde Yarıyıl Görüşmek Üzere...");
-        $title = urlencode('Agora RAC');
-        $url = "https://api.netgsm.com.tr/sms/send/get/?usercode={$netGSMUsercode}&password={$netGSMPassword}&gsmno={$mobile}&message={$message}&msgheader={$title}&dil=TR";
 
-        $ch = curl_init($url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-        $http_response = curl_exec($ch);
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        try {
+            $netGSMUsercode = '02666060795';
+            $netGSMPassword = urlencode('-K7U5.W.');
+            $title = '02666060795';
+            $message = "Kuzeyde Yariyil hesabiniz olusturulmustur. Giris bilgileriniz: Telefon:{$mobile} Sifre:{$password} Kuzeyde Yariyil'da Gorusmek Uzere...";
 
-        if($http_code != 200){
-            return false;
+            $curl = curl_init();
+            curl_setopt_array($curl, array(
+                CURLOPT_URL => 'https://api.netgsm.com.tr/sms/send/get',
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => '',
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 0,
+                CURLOPT_FOLLOWLOCATION => true,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => 'POST',
+                CURLOPT_POSTFIELDS => array(
+                    'usercode' => $netGSMUsercode,
+                    'password' => $netGSMPassword,
+                    'gsmno' => $mobile,
+                    'message' => $message,
+                    'msgheader' => $title,
+                    'filter' => '0',
+                    'startdate' => '',
+                    'stopdate' => ''),
+            ));
+
+            $response = curl_exec($curl);
+            $http_code = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+
+            curl_close($curl);
+
+            if ($http_code != 200) {
+                return false;
+            }
+
+            // return $http_response;
+            return true;
+        } catch (\Throwable $e) {
+            report($e);
+            return null;
         }
-
-        // return $http_response;
-        return true;
     }
 
 }

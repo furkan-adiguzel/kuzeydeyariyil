@@ -59,7 +59,7 @@ class AsambleGame extends Command
             $clubMessages[] = sprintf('%s (%s)', $allClubs[$clubId], $attenderCount);
         }
 
-        $clubMessages = sprintf('En çok katılım gösteren kulüpler:\n%s', implode('\n', $clubMessages));
+        $clubMessages = sprintf('En cok katilim gosteren kulupler:\n%s', implode('\n', $clubMessages));
         $users = User::all();
 
 

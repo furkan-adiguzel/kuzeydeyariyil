@@ -55,7 +55,7 @@
                     @if(Auth::check())
                             <li><a href="{{ route('attenders') }}">Katılımcılar</a></li>
                             @if(! Auth::user()->attender)
-                                <li><a href="{{ route('attend.register') }}" >Asamble'ye Katıl</a></li>
+                                <li><a href="{{ route('attend.register') }}" >Kayıt Ol</a></li>
                             @endif
                             <li><a href="{{ route('profile') }}"><i class="icofont-user-alt-2"></i> Profil</a></li>
                             <li><a href="{{ route('auth.logout') }}"><i class="icofont-logout"></i></a></li>

@@ -33,7 +33,7 @@
                         </div>
                     </section>
                 @else
-                    <h3 class="title">Asamble'ye Katıl</h3>
+                    <h3 class="title">Kayıt Ol</h3>
                     <p>Etkinliğe katılmak için lütfen kaydınızı tamamlayın.</p>
                     <form action="{{ route('attend.register') }}" method="post" class="account-form" enctype="multipart/form-data">
                     @csrf
