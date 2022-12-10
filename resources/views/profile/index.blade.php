@@ -40,9 +40,6 @@
                                             <p>
                                                 Oda arkadaşınız aynı paketi kayıt olmuş kişilerden seçebilirsiniz. Paket değişiklikleri için chat üzerinden bize ulaşmanız yeterli olacaktır.
                                             </p>
-                                            <p>
-                                                Covid sebebiyle karantinaya alındığının belgelendirilmesi hariç hiçbir sebeple para iadesi yapılmamaktadır. Covid karantinasına alınan kişilere ön ödeme bedeli düşülerek para iadesi yapılacaktır.
-                                            </p>
                                         </div>
                                 </div>
                             </div>
@@ -72,10 +69,10 @@
                                         <li>
                                             <div class="post-content" style="width: 100%; padding: 0;">
                                                 <div class="entry-meta">
-                                                    <h4>Asamble kaydınız yapıldı</h4>
+                                                    <h4>Zirve kaydınız yapıldı</h4>
                                                 </div>
                                                 <div class="entry-content">
-                                                    <div>{{ $attender->created_at->format('d M Y H:i') }} tarihinde Asamble kaydınızı yaptınız.</div>
+                                                    <div>{{ $attender->created_at->format('d M Y H:i') }} tarihinde Zirve kaydınızı yaptınız.</div>
                                                     @if (!empty($attender->price))
                                                         <br>
                                                         <div>
@@ -86,8 +83,8 @@
                                                         <br>
                                                         <h5 style="font-weight: 500;">Ödeme Hesabı</h5>
                                                         <p>
-                                                            Meriç Kaplan<br>
-                                                            TR49 0006 2000 2390 0006 6436 29
+                                                            Mert Sökmen Akbank<br>
+                                                            TR66 0004 6000 7388 8000 4032 84
                                                         </p>
                                                     @endif
                                                 </div>
@@ -200,11 +197,11 @@
                                         <li>
                                             <div class="post-content" style="width: 100%; padding: 0;">
                                                 <div class="entry-meta">
-                                                    <h4>Asamble kaydınızı yapın</h4>
+                                                    <h4>Zirve kaydınızı yapın</h4>
                                                 </div>
                                                 <div class="entry-content">
                                                     <div>
-                                                        Henüz Asamble katıl kaydınızı yapmamışsınız. Diğer adımları gerçekleştirmek için hemen kaydınızı yapın.<br>
+                                                        Henüz Zirve katıl kaydınızı yapmamışsınız. Diğer adımları gerçekleştirmek için hemen kaydınızı yapın.<br>
                                                         <strong><a href="{{ route('attend.register') }}" >Kayıt Ol</a></strong>
                                                     </div>
                                                 </div>

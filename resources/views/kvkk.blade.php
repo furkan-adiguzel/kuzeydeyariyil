@@ -31,8 +31,8 @@ Agora Rotaract Derneği , yürütmüş olduğu tüm Kişisel Veri işleme faaliy
 	•	https://asamble2022.com/  adresli internet sitemiz ve ileride kurulabilecek sair internet sitelerimiz (“İnternet Sitesi”) üzerinden aşağıdaki sayfalar başta olmak ancak bunlarla sınırlı olmaksızın otomatik veya otomatik olmayan yollarla elektronik olarak,
 	•	İnternet Sitelerinde yer alan organizasyon kayıt bölümü
 	•	İnternet Sitesi’nde yer alan Kullanım Şartnamesi’nin onaylanması ile gerçekleştirilen kayıtlar,
-	•	Çeşitli sosyal medya kanalları üzerinde Asamble 2022 adına işletilen hesaplar (“Sosyal Medya”) kanalıyla otomatik veya otomatik olmayan yollarla elektronik olarak,
-	•	E-posta adreslerimiz (“E-posta”) üzerinden yürütülen yazışmalar, Asamble 2022’ne sair amaçlarla gönderilen kısa mesajlar (“SMS”) veya multi medya mesajları (“MMS”) dahil sair iletişim yöntemleri ile her türlü iletişim araçları (“İletişim Araçları”) kanalıyla otomatik veya otomatik olmayan yollarla yazılı, sözlü veya elektronik olarak,
+	•	Çeşitli sosyal medya kanalları üzerinde Kuzeyde Yarıyıl 2023 adına işletilen hesaplar (“Sosyal Medya”) kanalıyla otomatik veya otomatik olmayan yollarla elektronik olarak,
+	•	E-posta adreslerimiz (“E-posta”) üzerinden yürütülen yazışmalar, Kuzeyde Yarıyıl 2023'e sair amaçlarla gönderilen kısa mesajlar (“SMS”) veya multi medya mesajları (“MMS”) dahil sair iletişim yöntemleri ile her türlü iletişim araçları (“İletişim Araçları”) kanalıyla otomatik veya otomatik olmayan yollarla yazılı, sözlü veya elektronik olarak,
 	•	Agora Rotaract Derneği’ne ait veya Agora Rotaract Derneği bünyesinde olmayıp üçüncü kişiler tarafından kurulan veya faaliyette bulunan tüm hizmet satış ve pazarlama ağı (“Satış Ağı”) kanalıyla, satış, pazarlama ve satış sonrası hizmetler kapsamında otomatik veya otomatik olmayan yollarla sözlü, yazılı veya elektronik olarak,
 	•	Tarafınızca internet siteniz, sosyal medya yahut sair Kişisel Verilerinizi alenileştirdiğiniz kanallar üzerinden otomatik veya otomatik olmayan yollarla sözlü veya elektronik olarak.
 

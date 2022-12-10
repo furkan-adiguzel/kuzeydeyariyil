@@ -6,7 +6,7 @@
         <div class="overlay"></div>
         <div class="container">
             <div class="page-header-content-area">
-                <h4 class="ph-title">Geleceğin Asamble'sine katılın.</h4>
+                <h4 class="ph-title">Kuzeyde Yarıyıl Zirve'sine katılın.</h4>
             </div>
         </div>
     </section>
