@@ -110,7 +110,7 @@
                             <div class="speaker-inner">
                                 <div class="speaker-thumb">
                                     <a href="#" class="committee-member-link ">
-                                        <img class="committee-member-pic" src="/assets/images/speakers/mert.jpg" alt="speaker">
+                                        <img class="committee-member-pic" src="/assets/images/speakers/mert.JPG" alt="speaker">
                                         <h3 class="text-center pt-3">Mert Sökmen</h3>
                                         <p class="text-center">Sponsorluk ve Mali İşler Komite Başkanı</p>
                                     </a>
