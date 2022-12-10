@@ -82,21 +82,22 @@
                         Mert Sökmen Akbank<br>
                         TR66 0004 6000 7388 8000 4032 84
                     </p>
-                        Kayıtlar <b>1 Ocak</b>'a kadar devam edecek.
+                        Kayıtlar <b>30 Aralık</b>'a kadar devam edecektir. Paket fiyatları ve kayıt anında yapılması gereken minimum ödeme tutarları:
                         Normal kayıt dönemi için yapılması
                         gereken en düşük ön ödeme miktarları:<br/><br/>
                         (Ücretler kişi başıdır ve ilk 20 katılımcı içindir.)<br/>
-                        <span style="display: inline-block; width: 100px;">Greyjoy</span>: 1750₺<br/>
-                        <span style="display: inline-block; width: 100px;">Tully</span>: 1500₺<br/>
-                        <span style="display: inline-block; width: 100px;">Baratheon</span>: 1450₺<br/>
-                        <span style="display: inline-block; width: 100px;">Lannister</span>: 2500₺<br/>
-                        <span style="display: inline-block; width: 100px;">Targaryen</span>: 2000₺<br/>
-                        <span style="display: inline-block; width: 100px;">Tyrell</span>: 1900₺<br/>
-                        <span style="display: inline-block; width: 100px;">Stark</span>: 1425₺<br/>
-
+                        <span style="display: inline-block; width: 100px;">Greyjoy(1 kişilik oda 1 gece)</span>: 1750₺<br/> (ön ödeme tutarı en az 875₺)
+                        <span style="display: inline-block; width: 100px;">Tully(2 kişilik oda 1 gece)</span>: 1500₺<br/> (ön ödeme tutarı en az 750₺)
+                        <span style="display: inline-block; width: 100px;">Baratheon(3 kişilik oda 1 gece)</span>: 1450₺<br/> (ön ödeme tutarı en az 725₺)
+                        <span style="display: inline-block; width: 100px;">Lannister(1 kişilik oda 2 gece)</span>: 2500₺<br/> (ön ödeme tutarı en az 1250₺)
+                        <span style="display: inline-block; width: 100px;">Targaryen(2 kişilik oda 2 gece)</span>: 2000₺<br/> (ön ödeme tutarı en az 1000₺)
+                        <span style="display: inline-block; width: 100px;">Tyrell(3 kişilik oda 2 gece)</span>: 1900₺<br/> (ön ödeme tutarı en az 950₺)
+                        <span style="display: inline-block; width: 100px;">Stark</span>: 1425₺<br/> (ön ödeme tutarı en az 725₺)
+                        <span style="display: inline-block; width: 100px;">Martell</span>: 950₺<br/> (ön ödeme tutarı en az 475₺)
                     </p>
                     </div>
                     <div class="form-group" style="text-align: left; margin-top: 25px;">
+                        <p>Paket ödemelerini 31 Aralık'a kadar tamamlamanız gerekmektedir. 31 Aralık 23.59'da tamamı ödenmemiş kayıtlar iptal edilecektir ve ilk yapılan ödemeler 3 ay içinde iade edilecektir.</p>
                         <p>Yaptığınız ödemenin dekontunun resmini yükleyin. Telefonda dekont'u ekran görüntüsü alarak yükleyebilirsiniz. Dekont yüklemeden kayıt'ı gerçekleştiremezsiniz!</p>
                         <input type="file" id="file-receipt" name="receipt" placeholder="Dekont yükleyin" style="display: none" required>
                         <button type="button" class="lab-btn" onclick="document.getElementById('file-receipt').click()" style="margin-top: 0; line-height: 40px; width: 200px;">

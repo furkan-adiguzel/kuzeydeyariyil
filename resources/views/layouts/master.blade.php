@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="/assets/css/style.css?v=1.1.0">
     <style type="text/css">
         @font-face {
-            font-family: "TrajanSans";
-            src: url('{{ public_path('font/"TrajanSans"Pro-ExtraLight.ttf') }}');
+            font-family: "EBGaramond";
+            src: url('{{ public_path('font/EBGaramond-VariableFont_wght.ttf') }}');
         }
     </style>
 </head>

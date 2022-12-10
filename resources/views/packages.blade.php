@@ -32,7 +32,7 @@
                                             <div class="pricing-item">
                                                 <div class="pricing-inner" style="text-align: center">
                                                     <h2 >{{ $package->name }}</h2>
-                                                    <img class="package-image" src="/assets/images/packages/{{$package->name}}.png" alt="package">
+                                                    <img class="package-image" src="/assets/images/packages/{{$package->name}}.png" style="width: 75%;margin-bottom: 2rem;" alt="package">
                                                     <div class="pricing-content"style="padding-bottom:1rem;">
                                                         <h5>
                                                             {{$package->description}}<br>
