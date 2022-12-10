@@ -27,69 +27,23 @@
                         <div class="col-lg-4 col-sm-6 col-xs-12">
                             <div class="news-item">
                                 <div class="news-inner">
-
-                                    <div class="news-content">
-                                        <h6><a href="#" style="text-align: center">
-{{--                                                @if(in_array($package->p_id, [1,2,5,6], true))--}}
-{{--                                                .<del>{{ $package->name }}</del>--}}
-{{--                                                    <b>Tükendi</b>--}}
-{{--                                                @else--}}
-{{--                                                    {{ $package->name }}--}}
-{{--                                                @endif--}}
-{{--                                            </a>--}}
-{{--                                        </h6>--}}
-
-                                        <div class="pricing-item">
-                                            <div class="pricing-inner">
-                                                <div class="pricing-content">
-                                                    <ul class="facilites">
-                                                        <li class="facility-item">
-                                                            <span>
-                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                            </span> Erken Kayıt {{$package->price_1}} ₺
-                                                        </li>
-{{--                                                        <li class="facility-item">--}}
-{{--                                                            <span>--}}
-{{--                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>--}}
-{{--                                                            </span> İndirimli Kayıt {{$package->price_2}} ₺--}}
-{{--                                                        </li>--}}
-                                                        <li class="facility-item">
-                                                            <span>
-                                                                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                            </span> Normal Kayıt  {{$package->price_2}} ₺
-                                                        </li>
-                                                    </ul>
-                                                    <div class="get-ticket">
-                                                        <a href="{{ route('attend.register') }}">
-                                                            <ul>
-                                                                @if(!is_null($package->night))
-                                                                <li class="vat">
-                                                                    <h4 style="color:white!important;">{{$package->night}}</h4>
-                                                                    <p style="color:white!important;">Gece</p>
-                                                                </li>
-                                                                @endif
-                                                                <li class="icon">
-                                                                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                                                                </li>
-                                                                @if(!is_null($package->night))
-                                                                <li class="vat">
-                                                                    <h4 style="color:white!important;">{{$package->room_person}}</h4>
-                                                                    <p style="color:white!important;">Kişi</p>
-                                                                </li>
-                                                                @endif
-                                                                @if(!empty($package->description))
-                                                                    <li class="vat">
-                                                                        <p style="color:white!important;">{{$package->name}}</p>
-                                                                    </li>
-                                                                @endif
-                                                            </ul>
-                                                        </a>
+                                    <a href="<?php echo e(route('attend.register')); ?>" >
+                                        <div class="news-content" style="color:white!important;">
+                                            <div class="pricing-item">
+                                                <div class="pricing-inner" style="text-align: center">
+                                                    <h2 >{{ $package->name }}</h2>
+                                                    <img class="package-image" src="/assets/images/packages/{{$package->name}}.png" alt="package">
+                                                    <div class="pricing-content"style="padding-bottom:1rem;">
+                                                        <h5>
+                                                            {{$package->description}}<br>
+                                                            Erken Kayıt {{$package->price_1}} ₺<br>
+                                                            Normal Kayıt  {{$package->price_2}} ₺<br>
+                                                        </h5>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
