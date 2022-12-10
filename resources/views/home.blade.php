@@ -113,23 +113,25 @@
 
             <div class="section-wrapper shape-b">
                 <div class="row g-5">
-                    <div class="speaker-item">
-                        <div class="speaker-inner">
-                            <div class="speaker-thumb text-center">
-                                <img src="/assets/images/speakers/ege.png" alt="speaker">
-                            </div>
-                            <div class="speaker-content">
-                                <div class="spkr-content-title">
-                                    <h5><a href="{{ route('committee.detail', ['slug' => 'ege']) }}" style="color:white!important">Ege Yigit Ece</a> </h5>
-                                    <p>2440. Bölge Rotaract Temsilcisi</p>
+                    <div class="col-lg-6 col-12">
+                        <div class="speaker-item">
+                            <div class="speaker-inner">
+                                <div class="speaker-thumb text-center">
+                                    <img src="/assets/images/speakers/ege.png" alt="speaker">
                                 </div>
-                                <div class="spkr-content-details">
+                                <div class="speaker-content">
+                                    <div class="spkr-content-title">
+                                        <h5><a href="{{ route('committee.detail', ['slug' => 'ege']) }}" style="color:white!important">Ege Yigit Ece</a> </h5>
+                                        <p>2440. Bölge Rotaract Temsilcisi</p>
+                                    </div>
+                                    <div class="spkr-content-details">
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-6 col-12">
                         <div class="speaker-item">
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
@@ -149,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-6 col-12">
                         <div class="speaker-item">
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
@@ -167,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-lg-6 col-12">
                         <div class="speaker-item">
                             <div class="speaker-inner">
                                 <div class="speaker-thumb text-center">
