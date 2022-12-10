@@ -16,7 +16,6 @@ abstract class Clubs
    const Bademli= 3;
    const Balcova = 4;
    const Balikesir =5 ;
-   const Bandirma = 6;
    const Bornova = 8;
    const Bostanli = 9;
    const Buca = 10;
@@ -54,6 +53,7 @@ abstract class Clubs
    const Gokdere = 44;
    const Calikusu = 45;
    const Bodrum = 46;
+   const Muradiye = 47;
 
    public static function getClubs()
    {
@@ -63,7 +63,6 @@ abstract class Clubs
            3 => 'Bademli Rotaract Kulübü',
            4 => 'Balçova Rotaract Kulübü',
            5 => 'Balıkesir Rotaract Kulübü',
-           6 => 'Bandırma Rotaract Kulübü',
            46 => 'Bodrum Rotaract Kulübü',
            8 => 'Bornova Rotaract Kulübü',
            9 => 'Bostanlı Rotaract Kulübü',
@@ -92,6 +91,7 @@ abstract class Clubs
            31 => 'Magnesia Rotaract Kulübü',
            32 => 'Marmaris Rotaract Kulübü',
            33 => 'Mavişehir Rotaract Kulübü',
+           47 => 'Muradiye Rotaract Kulübü',
            34 => 'Nilüfer Rotaract Kulübü',
            35 =>  'Osmangazi Rotaract Kulübü',
            36 => 'Salihli Sardes Rotaract Kulübü',
@@ -110,7 +110,6 @@ abstract class Clubs
             static::Bademli,
             static::Balcova,
             static::Balikesir,
-            static::Bandirma,
             static::Bornova,
             static::Bostanli,
             static::Buca,
@@ -147,7 +146,8 @@ abstract class Clubs
             static::Diger,
             static::Gokdere,
             static::Calikusu,
-            static::Bodrum
+            static::Bodrum,
+            static::Muradiye
        ];
    }
 }
