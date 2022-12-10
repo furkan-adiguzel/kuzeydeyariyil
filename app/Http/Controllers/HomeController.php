@@ -43,7 +43,7 @@ class HomeController extends Controller
     }
 
     public function packages() {
-        $packages = Package::all();
+        $packages = Package::all()->sortBy('id');
         return view('packages', ['packages' => $packages]);
     }
 
