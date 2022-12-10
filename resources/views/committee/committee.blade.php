@@ -118,18 +118,18 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 pt-5">
-                        <div class="speaker-item-2">
-                            <div class="speaker-inner">
-                                <div class="speaker-thumb text-center">
-                                    <a href="#">
-                                        <p class="text-center">Esra Bizsan<br>Sosyal Etkinlikler Komite Başkanı</p>
-                                        <p class="text-center">Furkan Adıgüzel</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+{{--                    <div class="col-lg-6 col-12 pt-5">--}}
+{{--                        <div class="speaker-item-2">--}}
+{{--                            <div class="speaker-inner">--}}
+{{--                                <div class="speaker-thumb text-center">--}}
+{{--                                    <a href="#">--}}
+{{--                                        <p class="text-center">Esra Bizsan<br>Sosyal Etkinlikler Komite Başkanı</p>--}}
+{{--                                        <p class="text-center">Furkan Adıgüzel</p>--}}
+{{--                                    </a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                 </div>
             </div>
         </div>
