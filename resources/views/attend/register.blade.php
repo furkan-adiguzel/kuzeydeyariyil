@@ -84,9 +84,7 @@
                         Mert Sökmen Akbank<br>
                         TR66 0004 6000 7388 8000 4032 84
                     </p>
-                        Kayıtlar <b>30 Aralık</b>'a kadar devam edecektir. Paket fiyatları ve kayıt anında yapılması gereken minimum ödeme tutarları:
-                        Normal kayıt dönemi için yapılması
-                        gereken en düşük ön ödeme miktarları:<br/><br/>
+                        Kayıtlar <b>30 Aralık</b>'a kadar devam edecektir. Paket fiyatları ve kayıt anında yapılması gereken minimum ödeme tutarları:<br/><br/>
                         (Ücretler kişi başıdır ve ilk 20 katılımcı içindir.)<br/>
                         <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 1750₺ (ön ödeme tutarı en az 875₺)<br/>
                         <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1500₺ (ön ödeme tutarı en az 750₺)<br/>
