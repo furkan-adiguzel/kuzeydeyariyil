@@ -31,7 +31,6 @@ Tags: bootstrap, program, event, event schedule, arrangment, event site, officia
 
 >>> TABLE OF CONTENTS END:
 @@@@@@@@@@@@@@@@@@@@@@ */
-@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap");
 /* @@@@@@@@@@@@@  Extend Property  @@@@@@@@@@@@@@ */
 footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner, .contact-form-wrapper .contact-form form.comment-form, .contact-item, .gallery-section .grid .grid-item .grid-inner .grid-content, .shop-product-wrap .product-list-item, .shop-product-wrap .product-item .product-thumb .product-action-link,
 .shop-product-wrap .product-list-item .product-thumb .product-action-link, .shop-single .review .review-content .review-showing .client-review .review-form form .rating ul, .shop-single .review .review-content .review-showing .client-review .review-form form .rating, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta, .shop-single .review .review-nav, .shop-single .product-details .post-content form, .shop-cart .section-wrapper .cart-bottom .shiping-box .cart-overview ul li, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item, .comment-respond .add-comment .comment-form, .comments .comment-list .comment .com-content .com-title, .authors, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section .tags, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section, .about-section .section-wrapper .about-btn-grp, .banner-section .banner-wrapper .banner-content .event-sponsored, .banner-section .banner-wrapper .banner-content .countdown, .menu, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner .cart-details p, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner, .header-wrapper .menu-area .cart-ticket, .header-wrapper .menu-area, .header-wrapper, .account-form .form-group .checkgroup, .tags-social .social, .tags-social .tags, .paginations ul li a, .share, .tags, .tags-area, .single-quote, .coming-wrapper .event-count .rounded-circle, .widget.widget-tags ul.widget-wrapper, .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat, .pricing-item .pricing-inner .pricing-content .get-ticket a ul, .speaker-item-2 .speaker-inner, .speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons, .speaker-item .speaker-inner, .page-header .page-header-content-area ul {
@@ -122,6 +121,9 @@ Tags: community, couple, creative, dating, groups, love template, matching, memb
 #Footer
 --------------------------------------------------------------*/
 /* @@@@@@@@@@@@@  Extend Property CSS Writing Now  @@@@@@@@@@@@@@ */
+
+
+
 footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner, .contact-form-wrapper .contact-form form.comment-form, .contact-item, .gallery-section .grid .grid-item .grid-inner .grid-content, .shop-product-wrap .product-list-item, .shop-product-wrap .product-item .product-thumb .product-action-link,
 .shop-product-wrap .product-list-item .product-thumb .product-action-link, .shop-single .review .review-content .review-showing .client-review .review-form form .rating ul, .shop-single .review .review-content .review-showing .client-review .review-form form .rating, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta .posted-on, .shop-single .review .review-content .review-showing .content li .post-content .entry-meta, .shop-single .review .review-nav, .shop-single .product-details .post-content form, .shop-cart .section-wrapper .cart-bottom .shiping-box .cart-overview ul li, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box .cart-checkout, .shop-cart .section-wrapper .cart-bottom .cart-checkout-box, .shop-cart .section-wrapper .cart-top table tbody tr td.product-item, .comment-respond .add-comment .comment-form, .comments .comment-list .comment .com-content .com-title, .authors, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section .tags, .blog-single .section-wrapper .post-item-2 .post-inner .post-content .tags-section, .about-section .section-wrapper .about-btn-grp, .banner-section .banner-wrapper .banner-content .event-sponsored, .banner-section .banner-wrapper .banner-content .countdown, .menu, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner .cart-details p, .header-wrapper .menu-area .cart-ticket .cart-icon .cart-content .cart-list .cart-item .cart-inner, .header-wrapper .menu-area .cart-ticket, .header-wrapper .menu-area, .header-wrapper, .account-form .form-group .checkgroup, .tags-social .social, .tags-social .tags, .paginations ul li a, .share, .tags, .tags-area, .single-quote, .coming-wrapper .event-count .rounded-circle, .widget.widget-tags ul.widget-wrapper, .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat, .pricing-item .pricing-inner .pricing-content .get-ticket a ul, .speaker-item-2 .speaker-inner, .speaker-item .speaker-inner .speaker-content .spkr-content-details .social-icons, .speaker-item .speaker-inner, .page-header .page-header-content-area ul {
   display: flex;
@@ -342,10 +344,15 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-c
   scroll-behavior: auto !important;
 }
 
+@font-face {
+    font-family: "EBGaramond";
+    src: url('/fonts/EBGaramond.woff')
+}
+
 body {
   background: #00163f;
   color: #fff;
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -358,7 +365,7 @@ h5,
 h6 {
   color: #fff;
   font-weight: 700;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif !important;
 }
 
 a > h1,
@@ -523,7 +530,7 @@ ul li {
   z-index: -1;
 }
 .section-header p {
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   font-size: 16px;
   letter-spacing: 0.4rem;
 }
@@ -932,7 +939,7 @@ ul li {
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button .accor-header-inner .h7 {
   color: #00163f;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button.collapsed {
   border-radius: 0.25rem;
@@ -961,7 +968,7 @@ ul li {
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button.collapsed .h7 {
   color: #fff;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
 }
 .schedule-pack .schedule-list .accordion-item .accordion-header .accordion-button:focus {
   border: none;
@@ -1008,7 +1015,7 @@ ul li {
   transition: 0.3s all cubic-bezier(0.45, 0.05, 0.55, 0.95);
 }
 .pricing-item .pricing-inner .pricing-header p {
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   font-size: 16px;
 }
 .pricing-item .pricing-inner .pricing-content .facilites {
@@ -1052,7 +1059,7 @@ ul li {
   list-style: none;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li p {
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
 }
 .pricing-item .pricing-inner .pricing-content .get-ticket a ul li.vat {
   align-items: flex-end;
@@ -1127,7 +1134,7 @@ ul li {
   text-transform: capitalize;
   font-weight: 700;
   position: relative;
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
   margin-bottom: 40px;
 }
 .widget .widget-header h5::before {
@@ -1288,7 +1295,7 @@ ul li {
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
   margin-bottom: 2px;
 }
 .widget.widget-post ul.widget-wrapper li .post-content h6:hover {
@@ -1433,7 +1440,7 @@ ul li {
 }
 .coming-wrapper .event-count .rounded-circle span {
   font-size: 24px;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   line-height: 1;
 }
 .coming-wrapper h1 {
@@ -1485,7 +1492,7 @@ ul li {
 .single-quote {
   background: #00163f;
   color: #fff;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   padding: 25px 15px 20px;
   position: relative;
 }
@@ -1544,7 +1551,7 @@ ul li {
   line-height: 36px;
   font-style: italic;
   font-weight: 500;
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
 }
 @media (max-width: 767px) {
   .blog-quote {
@@ -1710,7 +1717,7 @@ ul li {
   padding: 0 30px;
   background: #fff;
   color: #00163f;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   font-style: italic;
   font-size: 14px;
   text-transform: capitalize;
@@ -2419,7 +2426,7 @@ ul li {
   height: 18px;
   line-height: 18px;
   font-size: 14px;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   border-radius: 50%;
   color: #00163f;
   top: -8px;
@@ -2772,7 +2779,7 @@ ul li {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -2782,7 +2789,7 @@ ul li {
 }
 .banner-section .banner-wrapper .banner-content .countdown .clock-item .count-text {
   background: #fff;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   font-size: 18px;
   color: #00163f !important;
   padding: 0.5rem 0.7rem;
@@ -2813,7 +2820,7 @@ ul li {
 .banner-section .banner-wrapper .banner-content > p {
   max-width: 390px;
   font-size: 18px;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   line-height: 2;
 }
 @media (max-width: 991px) {
@@ -2952,7 +2959,7 @@ ul li {
   color: #fff;
   font-size: 16px;
   padding: 7px 0;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   text-align: left;
 }
 .event-gift-section .gift-content .gift-list .gift-item span {
@@ -4292,7 +4299,7 @@ ul li {
   color: #fff;
   font-weight: 700;
   position: relative;
-  font-family: "TrajanSans", serif;
+  font-family: "EBGaramond", serif;
   font-size: 18px;
 }
 .widget .widget-header h5::before {
@@ -4870,7 +4877,7 @@ ul li {
   max-width: 610px;
 }
 .contact-form-wrapper .contact-form h5 {
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
 }
 .contact-form-wrapper .contact-form form.comment-form {
   justify-content: space-between;
@@ -4933,7 +4940,7 @@ ul li {
   }
 }
 .contact-info-wrapper .contact-info-title h5 {
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
 }
 .contact-info-wrapper .contact-info-title p {
   max-width: 280px;
@@ -5074,7 +5081,7 @@ footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-c
   color: #fff;
   font-size: 16px;
   font-weight: 600;
-  font-family: "TrajanSans", sans-serif;
+  font-family: "EBGaramond", sans-serif;
 }
 footer .footer-middle .footer-middle-item-wrapper .footer-middle-item .fm-item-content .fm-item-widget .lab-inner .lab-content p {
   color: #5d6e8d;

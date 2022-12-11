@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="/assets/css/swiper.min.css?v=1.1.0">
     <link rel="stylesheet" href="/assets/css/style.css?v=1.1.0">
     <style type="text/css">
+        @import url("public/assets/css/fonts/EBGaramond.ttf");
         @font-face {
             font-family: "EBGaramond";
-            src: url('{{ public_path('font/EBGaramond-VariableFont_wght.ttf') }}');
+            src: url('{{ public_path('fonts/EBGaramond.ttf') }}');
         }
     </style>
 </head>
