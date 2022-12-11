@@ -12,7 +12,10 @@
     </section>
     <!-- Page Header Section Ending Here -->
 
-    <div class="login-section padding-tb">
+    @if(time() > 1670832000)
+
+
+        <div class="login-section padding-tb">
         <div class=" container">
             <div class="account-wrapper">
                 @if ($errors->any())
@@ -44,4 +47,9 @@
             </div>
         </div>
     </div>
+
+
+    @else
+        <h3 class="coming-soon-title mb-4" style="margin: auto;margin-top:2rem;text-align: center;">Kayıtlar 12 Aralık 2022 11:00'da açılacaktır.</h3>
+    @endif
 @endsection
