@@ -66,7 +66,7 @@ class AttendController extends Controller
             ]);
 
 
-            $path = $request->file('receipt')->store('receipt');
+            $path = $request->file('receipt')->store('public');
 
             $attender = new Attender();
             $attender->name = $request->post('name');
