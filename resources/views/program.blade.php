@@ -13,7 +13,7 @@
     </section>
     <!-- Page Header Section Ending Here -->
 
-    <h3 class="coming-soon-title mb-4" style="width: 80vw;margin: auto;text-align: center;">Sitemiz Güncellenmektedir. Yakında Program Bilgilerini Paylaşacağız.</h3>
+    <h3 class="coming-soon-title mb-4" style="width: 80vw;margin: auto;text-align: center; margin-top:2rem;">Çok Yakında Program Bilgilerini Paylaşacağız.</h3>
 
     {{--    <div class="container padding-tb-sm">--}}
 {{--        <div class="row justify-content-center">--}}
