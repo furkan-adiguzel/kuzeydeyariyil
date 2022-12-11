@@ -77,7 +77,7 @@
                                                         <br>
                                                         <div>
                                                             Paket: <strong>{{ $attender->package->name }}</strong><br>
-                                                            Alınan Ödeme: <strong>{{ $attender->paid_1_amount }} TL</strong><br>
+                                                            Alınan Ödeme: <strong>{{ $attender->paid_1_amount + $attender->paid_2_amount }} TL</strong><br>
                                                             Kalan Ödeme: <strong>{{ $attender->price - $attender->paid_1_amount - $attender->paid_2_amount }} TL</strong><br>
                                                         </div>
                                                         <br>
