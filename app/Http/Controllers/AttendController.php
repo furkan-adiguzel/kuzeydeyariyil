@@ -57,6 +57,7 @@ class AttendController extends Controller
         $packages = Package::all();
         $clubs = Clubs::getClubs();
         $positions = Role::getRole();
+        $attenderCount = Attender::all()->count();
 
 
         if ($request->isMethod('post')) {
@@ -119,7 +120,8 @@ class AttendController extends Controller
         return view('attend/register', [
             'packages' => $packages,
             'clubs' => $clubs,
-            'positions' => $positions
+            'positions' => $positions,
+            'attenderCount' => $attenderCount,
         ]);
     }
 

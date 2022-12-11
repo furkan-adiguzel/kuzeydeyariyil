@@ -44,7 +44,9 @@ class HomeController extends Controller
 
     public function packages() {
         $packages = Package::all()->sortBy('p_id');
-        return view('packages', ['packages' => $packages]);
+        $attenderCount = Attender::all()->count();
+
+        return view('packages', ['packages' => $packages, 'attenderCount' => $attenderCount]);
     }
 
     public function kvkk() {

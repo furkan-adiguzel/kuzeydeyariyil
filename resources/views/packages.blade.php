@@ -36,7 +36,7 @@
                                                     <div class="pricing-content"style="padding-bottom:1rem;">
                                                         <h5>
                                                             {{$package->description}}<br>
-                                                            Erken Kayıt {{$package->price_1}} ₺<br>
+                                                            <span @if($attenderCount >= 20)style="text-decoration: line-through;@endif">Erken Kayıt {{$package->price_1}} ₺</span><br>
                                                             Normal Kayıt  {{$package->price_2}} ₺<br>
                                                         </h5>
                                                     </div>
