@@ -24,12 +24,10 @@
                         </ul>
                     </div>
                 @endif
-                @if(false)
+                @if(time() > 1672520399)
                     <section class="coming-soon-section padding-tb">
                         <div class="container">
-                            <div class="coming-wrapper text-center">
-                                <h1 class="coming-soon-title mb-4">İlginiz için teşekkür ederiz. Kayıtlarımız kapanmıştır.</h1>
-                            </div>
+                            <h2 class="coming-soon-title mb-4">İlginiz için teşekkür ederiz. Kayıtlarımız kapanmıştır.</h2>
                         </div>
                     </section>
                 @else
@@ -103,7 +101,7 @@
                         @else
                             Kayıtlar <b>30 Aralık</b>'a kadar devam edecektir. Paket fiyatları ve kayıt anında yapılması gereken minimum ödeme tutarları:<br/><br/>
                             (Ücretler kişi başıdır ve ilk 20 katılımcı içindir.)<br/>
-                            <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 1750₺ (ön ödeme tutarı en az 875₺)<br/>
+                            <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 1725₺ (ön ödeme tutarı en az 875₺)<br/>
                             <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1500₺ (ön ödeme tutarı en az 750₺)<br/>
                             <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1450₺ (ön ödeme tutarı en az 725₺)<br/>
                             <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 2500₺ (ön ödeme tutarı en az 1250₺)<br/>
