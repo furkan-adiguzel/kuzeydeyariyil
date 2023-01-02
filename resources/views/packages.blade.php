@@ -21,7 +21,7 @@
                     <p>
                         *Konaklama içeren paketlere "Toplantı" ve "Gala" ücretleri dahildir.<br/>
                         *Tüm paket fiyatları kişi başı ücretlerdir.<br/>
-                        *Erken kayıt ücreti ilk 20 kayıt için geçerlidir!
+{{--                        *Erken kayıt ücreti ilk 20 kayıt için geçerlidir!--}}
                     </p>
                     @foreach($packages as $package)
                         <div class="col-lg-4 col-sm-6 col-xs-12">
@@ -36,8 +36,8 @@
                                                     <div class="pricing-content"style="padding-bottom:1rem;">
                                                         <h5>
                                                             {{$package->description}}<br>
-                                                            <span @if($attenderCount >= 20)style="text-decoration: line-through;@endif">Erken Kayıt {{$package->price_1}} ₺</span><br>
-                                                            Normal Kayıt  {{$package->price_2}} ₺<br>
+                                                            <span @if($attenderCount >= 20)style="text-decoration: line-through;@endif">Normal Kayıt {{$package->price_1}} ₺</span><br>
+                                                            Geç Kayıt  {{$package->price_2}} ₺<br>
                                                         </h5>
                                                     </div>
                                                 </div>
