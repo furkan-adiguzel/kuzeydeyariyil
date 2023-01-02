@@ -121,8 +121,8 @@
                             <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 2200₺<br/>
                             <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1900₺<br/>
                             <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1825₺<br/>
-                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 3150<br/>
-                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2530<br/>
+                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 3150₺<br/>
+                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2530₺<br/>
                             <span style="display: inline-block; width: 300px;">Tyrell (3 kişilik oda 2 gece)</span>: 2400₺<br/>
                             <span style="display: inline-block; width: 300px;">Stark (Toplantı+Gala)</span>: 1800₺<br/>
                             <span style="display: inline-block; width: 300px;">Martell (Toplantı)</span>: 1200₺<br/>
