@@ -88,8 +88,8 @@
 {{--                            <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 2000₺ (ön ödeme tutarı en az 1000₺)<br/>--}}
 {{--                            <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1725₺ (ön ödeme tutarı en az 865₺)<br/>--}}
 {{--                            <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1675₺ (ön ödeme tutarı en az 840₺)<br/>--}}
-{{--                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 2875 (ön ödeme tutarı en az 1440₺)<br/>--}}
-{{--                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2300 (ön ödeme tutarı en az 1150₺)<br/>--}}
+{{--                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 2875₺ (ön ödeme tutarı en az 1440₺)<br/>--}}
+{{--                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2300₺ (ön ödeme tutarı en az 1150₺)<br/>--}}
 {{--                            <span style="display: inline-block; width: 300px;">Tyrell (3 kişilik oda 2 gece)</span>: 2185₺ (ön ödeme tutarı en az 1100₺)<br/>--}}
 {{--                            <span style="display: inline-block; width: 300px;">Stark (Toplantı+Gala)</span>: 1650₺ (ön ödeme tutarı en az 825₺)<br/>--}}
 {{--                            <span style="display: inline-block; width: 300px;">Martell (Toplantı)</span>: 1100₺ (ön ödeme tutarı en az 550₺)<br/>--}}
@@ -118,14 +118,14 @@
 
                         Kayıtlar <b>03 Ocak</b>'a kadar devam edecektir. Paket fiyatları ve kayıt anında yapılması gereken minimum ödeme tutarları:<br/><br/>
                         (Ücretler kişi başıdır.)<br/>
-                            <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 2200₺<br/>
-                            <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1900₺<br/>
-                            <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1825₺<br/>
-                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 3150₺<br/>
-                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2530₺<br/>
-                            <span style="display: inline-block; width: 300px;">Tyrell (3 kişilik oda 2 gece)</span>: 2400₺<br/>
-                            <span style="display: inline-block; width: 300px;">Stark (Toplantı+Gala)</span>: 1800₺<br/>
-                            <span style="display: inline-block; width: 300px;">Martell (Toplantı)</span>: 1200₺<br/>
+                            <span style="display: inline-block; width: 300px;">Greyjoy (1 kişilik oda 1 gece)</span>: 2000₺<br/>
+                            <span style="display: inline-block; width: 300px;">Tully (2 kişilik oda 1 gece)</span>: 1725₺<br/>
+                            <span style="display: inline-block; width: 300px;">Baratheon (3 kişilik oda 1 gece)</span>: 1675₺<br/>
+                            <span style="display: inline-block; width: 300px;">Lannister (1 kişilik oda 2 gece)</span>: 2875₺<br/>
+                            <span style="display: inline-block; width: 300px;">Targaryen (2 kişilik oda 2 gece)</span>: 2300₺<br/>
+                            <span style="display: inline-block; width: 300px;">Tyrell (3 kişilik oda 2 gece)</span>: 2185₺<br/>
+                            <span style="display: inline-block; width: 300px;">Stark (Toplantı+Gala)</span>: 1650₺<br/>
+                            <span style="display: inline-block; width: 300px;">Martell (Toplantı)</span>: 1100₺<br/>
                         </p>
                     </div>
                         <div class="form-group" style="text-align: left; margin-top: 25px;">
