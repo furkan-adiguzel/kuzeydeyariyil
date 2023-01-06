@@ -63,6 +63,7 @@ class Attender extends Model
 
     protected $appends = [
         'club_name',
+        'position_name',
         'status_data',
     ];
 

@@ -14,6 +14,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Kulüp</th>
+                    <th>Görev</th>
                     <th>İsim</th>
                     <th>Soyisim</th>
                     <th>Paket</th>
@@ -69,6 +70,10 @@
                     {
                         data: 'club_name',
                         name: 'club'
+                    },
+                    {
+                        data: 'position_name',
+                        name: 'position'
                     },
                     {data: 'name'},
                     {data: 'surname'},

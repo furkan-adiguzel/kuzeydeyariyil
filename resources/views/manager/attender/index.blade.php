@@ -10,6 +10,7 @@
                 <thead>
                 <tr>
                     <th>Kulüp</th>
+                    <th>Görev</th>
                     <th>İsim Soyisim</th>
                     <th>Paket</th>
                     <th>Mobil</th>
@@ -60,6 +61,10 @@
                     {
                         data: 'club_name',
                         name: 'club'
+                    },
+                    {
+                        data: 'position_name',
+                        name: 'position'
                     },
                     {data: 'name', render (name, type, full) {
                         return name + ' ' + full.surname;
